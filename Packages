@@ -1,23 +1,44 @@
-Package: com.nano.musicpill
-Name: MusicPill
-Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Package: com.nano.control26
+Name: Control26
+Description: iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
 Maintainer: nano
 Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.musicpill
-Replaces: com.user.musicpill
-Provides: com.user.musicpill
-Icon: file:///var/jb/usr/share/MusicPill/icon.png
-Architecture: iphoneos-arm64
-Version: 1.2.0
-Installed-Size: 704
-Filename: debs/com.nano.musicpill_1.2.0_iphoneos-arm64.deb
-Size: 195846
-MD5sum: d32cf1686724794fa99c44fd74416209
-SHA1: 72380e696abda04f34a81640aea909f6350368e6
-SHA256: ad97a75cc78df7e690bc3da48a8c438b86a5949d663497319d2187205687ead3
+Conflicts: com.user.control26
+Replaces: com.user.control26
+Provides: com.user.control26
+Architecture: iphoneos-arm
+Version: 0.4.0
+Installed-Size: 440
+Filename: debs/com.nano.control26_0.4.0_iphoneos-arm.deb
+Size: 106462
+MD5sum: 4d10fd57664db01bf3bf4fd76aa2e359
+SHA1: e31da1ab2bf0e3146eeeb1a56c51e11bb5e0985c
+SHA256: 7465a11cf2c2ad6f8d2669a2ac9303721d11412d65b38445a8d40c7be401ae3b
 Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
+
+Package: com.nano.control26
+Name: Control26
+Description: iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.control26
+Replaces: com.user.control26
+Provides: com.user.control26
+Architecture: iphoneos-arm64
+Version: 0.4.0
+Installed-Size: 440
+Filename: debs/com.nano.control26_0.4.0_iphoneos-arm64.deb
+Size: 106632
+MD5sum: c9b0151cb88829307b88d2f11b8dd576
+SHA1: 07209410497852ee4a88aaef9d54d55ccb1778ef
+SHA256: 52a4b3de6341aa25c76c426f96174f021388e622bf7bf713d8e92c856d76bced
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
 
 Package: com.nano.musicpill
 Name: MusicPill
@@ -29,13 +50,76 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.user.musicpill
 Replaces: com.user.musicpill
 Provides: com.user.musicpill
-Icon: file:///var/jb/usr/share/MusicPill/icon.png
 Architecture: iphoneos-arm
 Version: 1.2.0
 Installed-Size: 704
 Filename: debs/com.nano.musicpill_1.2.0_iphoneos-arm.deb
-Size: 195670
-MD5sum: 1a6fef01b745787d02b92c341ba30513
-SHA1: ece3c3273c8f26449d5de61132ab6d78f4831c8e
-SHA256: c3b1dc3fea6cf42fe7f7c894c9151dc1335a4ad4dfb15dd6ab03e35ab265ecc8
+Size: 195734
+MD5sum: 6b62b9cb609e401ad33373500c9b0387
+SHA1: e3e9a88e1ecd707b424ff8d62c44552f34d0b4dd
+SHA256: 09d4fc967804574ec2ecdffa85c9e24778dfbfa5c3c24fb08242631c7f8f7ac1
 Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
+
+Package: com.nano.musicpill
+Name: MusicPill
+Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.musicpill
+Replaces: com.user.musicpill
+Provides: com.user.musicpill
+Architecture: iphoneos-arm64
+Version: 1.2.0
+Installed-Size: 704
+Filename: debs/com.nano.musicpill_1.2.0_iphoneos-arm64.deb
+Size: 195846
+MD5sum: 7b4170f54cfe676e1783bae1007e780a
+SHA1: cb9575d62e3737806fb30e58db74615a460442e3
+SHA256: 5b9b723f445a09a397ddc096b1e10fac43d2a92b28a3716c2f91b51f8227ddc6
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
+
+Package: com.nano.photos26
+Name: Photos26
+Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.photos26
+Replaces: com.user.photos26
+Provides: com.user.photos26
+Architecture: iphoneos-arm
+Version: 2.2.0
+Installed-Size: 380
+Filename: debs/com.nano.photos26_2.2.0_iphoneos-arm.deb
+Size: 87754
+MD5sum: f3556be7dde87b35fd96d94b64667209
+SHA1: d0013bca86bcfea9b639ac38d57f26506b5cdf85
+SHA256: b1f96f50c77988bc10b3c61c7380df3bfb6d07d9e049a61071fcb47353a310cd
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
+
+Package: com.nano.photos26
+Name: Photos26
+Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.photos26
+Replaces: com.user.photos26
+Provides: com.user.photos26
+Architecture: iphoneos-arm64
+Version: 2.2.0
+Installed-Size: 380
+Filename: debs/com.nano.photos26_2.2.0_iphoneos-arm64.deb
+Size: 87892
+MD5sum: cb71799e450027dfb4fdd3340982da55
+SHA1: 18ccd008eceb914a931d366012de71da6b11c818
+SHA256: c43dc568b42c434ba19a504795ce56ad5dda605ba55459b79394c9ed5a9edffd
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
