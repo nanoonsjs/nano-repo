@@ -1,0 +1,18 @@
+Origin: nano
+Label: nano
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Tweaks by nano
+MD5Sum:
+ 28f24c54ad134bc532a2ff2b7dc8afca 1965 Packages
+ fb6daf29261bb1232e8104a9a5c3a509 753 Packages.gz
+ 4968de6bb2ccba232346bc07bf8d27b9 912 Packages.bz2
+ 391047508604d37cc5991bcedbfb0ca0 824 Packages.xz
+SHA256:
+ f9df8c1f1d4a93f366dfd9257237dadcbd0a750d46e89051feba24efb991574c 1965 Packages
+ 8dd011703056a114722c3f8109fac346a235ea1f23ac9e3944324735c02351a7 753 Packages.gz
+ 5611d2d91a08f62bcf5a8ea77afe2aeac5bdb7078b89bd5b0cbd0762faf5700e 912 Packages.bz2
+ 8175ffa204747058e8b7de971587715dc056865635877de7db49170d22cf38f8 824 Packages.xz
