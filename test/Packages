@@ -1,0 +1,20 @@
+Package: com.nano.musicpill
+Name: MusicPill
+Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.musicpill
+Replaces: com.user.musicpill
+Provides: com.user.musicpill
+Icon: file:///var/jb/usr/share/MusicPill/icon.png
+Architecture: iphoneos-arm64
+Version: 1.2.1
+Installed-Size: 704
+Filename: debs/com.nano.musicpill_1.2.1_iphoneos-arm64.deb
+Size: 196120
+MD5sum: c4def81b053f2a15132f792275b21cfe
+SHA1: acbfbce6fcacf0b0885632f5fa69856132a221cb
+SHA256: dcd26dcdebf5cd5b2c71273b90ab66407223c124e8c6c7b33ec4881b69efcf2b
+Depiction: https://nanoonsjs.github.io/nano-repo/test/

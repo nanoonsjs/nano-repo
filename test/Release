@@ -1,0 +1,18 @@
+Origin: nano test
+Label: nano (test)
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: Test builds by nano
+MD5Sum:
+ 3aec6be1e14ae34074b64a2e19f2b44b 989 Packages
+ 8a07107500dbc2048b72c1712e4ddda3 624 Packages.gz
+ fa303a667fcf2c230f26d619d9b8ab88 680 Packages.bz2
+ 6e44e8813018cad622fc0b25040f788f 716 Packages.xz
+SHA256:
+ 9f169e6d3f2459903c400e34df537e8a1c361d73bc2a308ab82a230775885c03 989 Packages
+ e1369d34f84562e0ad4eb50bea2699b03fb4ab3b3fad3ddf3b55f74a838ad4cc 624 Packages.gz
+ f6a5d98dddf0839b62568d92242fc7570025fd84764018d9d8c14938337d6d86 680 Packages.bz2
+ d5c776700510fe7078892334a03478065ae658c33f5b66a9b6ac27a40461512a 716 Packages.xz
