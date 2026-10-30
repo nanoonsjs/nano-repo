@@ -12,10 +12,10 @@ Architecture: iphoneos-arm
 Version: 0.4.0
 Installed-Size: 440
 Filename: debs/com.nano.control26_0.4.0_iphoneos-arm.deb
-Size: 106532
-MD5sum: 18dd8e397b1f4ab71e11f25da91accc7
-SHA1: 6af190efcb8e8d326ab9cc95844b1871be34b564
-SHA256: 863947717d31aa46c671bf6e64710f20c8f0547b7820a51537d6f05d0b854b0d
+Size: 106484
+MD5sum: 5294e8d7908dac8d823e8d11e71d9054
+SHA1: 4e369bdf88a4d91f75e2ea46f2452d7360c7ee93
+SHA256: b863a157956cbb0eb259e8ec5bbdc080e13bed1f2a98bcf6cd1d879e01096293
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
 
@@ -33,12 +33,54 @@ Architecture: iphoneos-arm64
 Version: 0.4.0
 Installed-Size: 440
 Filename: debs/com.nano.control26_0.4.0_iphoneos-arm64.deb
-Size: 106646
-MD5sum: a5041a8cd3571499039ed925276c3298
-SHA1: 02532147b9570e1d723d3a831fe91800112e58b8
-SHA256: 60294e025ed0b0b4176377eda71ce4fd367046ab79274b9c91a65b5487da0eb4
+Size: 106558
+MD5sum: 4cb46c1dd90255bf057210085bd8f830
+SHA1: 16e884a482eb249a86df19fbcc283c80e1c2c43f
+SHA256: 449fc8636910cff78b6f58f0a866def5f18adef065c55b260910f7c86ae010a6
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
+
+Package: com.nano.photos26
+Name: Photos26
+Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.photos26
+Replaces: com.user.photos26
+Provides: com.user.photos26
+Architecture: iphoneos-arm
+Version: 2.2.1
+Installed-Size: 380
+Filename: debs/com.nano.photos26_2.2.1_iphoneos-arm.deb
+Size: 88610
+MD5sum: 9e11f5c2a8fcf494568a78ab804b98be
+SHA1: ec99ae67058fa955eb83b0899f0721d2712281ef
+SHA256: 3157772c5bc684e8e77d1a5014f0138cd9b25e6d04a1a1a40919848e41b433f2
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
+
+Package: com.nano.photos26
+Name: Photos26
+Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.photos26
+Replaces: com.user.photos26
+Provides: com.user.photos26
+Architecture: iphoneos-arm64
+Version: 2.2.1
+Installed-Size: 380
+Filename: debs/com.nano.photos26_2.2.1_iphoneos-arm64.deb
+Size: 88676
+MD5sum: fd866a03302807742aa83aa0ea6377a3
+SHA1: 920355b9d8edca5c9c1a6202b9e3ad080d192531
+SHA256: d1538304c7fbb7664502d4cde08bf934228ed3b60548ad7f70a9e8bea145dd17
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
 
 Package: com.nano.musicpill
 Name: MusicPill
@@ -81,45 +123,3 @@ SHA1: fc3b1dd1c4f4e4cfa844c2bd5be48d692f243c39
 SHA256: 453ca29728f79f4fdfbf477ac65581f4661d7a8de0b56658a0c575f59f250c51
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
-
-Package: com.nano.photos26
-Name: Photos26
-Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.photos26
-Replaces: com.user.photos26
-Provides: com.user.photos26
-Architecture: iphoneos-arm
-Version: 2.2.0
-Installed-Size: 380
-Filename: debs/com.nano.photos26_2.2.0_iphoneos-arm.deb
-Size: 87810
-MD5sum: 35845882e79d0fd782096f311004ef1d
-SHA1: aafcced9433a68b9e0b34ea98e81ea4c49e663ed
-SHA256: eaf4a1fba82e9afe271be08d35c585f7753fe6ea54b18e2af4594a3aaa0c59d8
-Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
-
-Package: com.nano.photos26
-Name: Photos26
-Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.photos26
-Replaces: com.user.photos26
-Provides: com.user.photos26
-Architecture: iphoneos-arm64
-Version: 2.2.0
-Installed-Size: 380
-Filename: debs/com.nano.photos26_2.2.0_iphoneos-arm64.deb
-Size: 87844
-MD5sum: 8725b48c59cd353e56c11ffdbdb04b76
-SHA1: 70b062b569a3e03a575111b108d966cac7123145
-SHA256: b4df745069a0f41505c379c2ae31eb638a486681ae29e258e82cdb5e65e17392
-Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
