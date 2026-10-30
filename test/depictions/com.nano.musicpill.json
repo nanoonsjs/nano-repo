@@ -1,0 +1,462 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#fa3d5f",
+ "headerImage": "",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "1.2.15"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Repo",
+     "text": "nano (test)"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.15",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Library title always shows (switch laid out again after narrowing), glass switch in dark mode too, faster drop animation.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.14",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Both Apple Music / Library titles show (plain colour per mode), the switch leaves as a liquid drop into the X and comes back out of it.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.13",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Light mode: frosted glass with a visible rim and soft shadow, back button no longer dark, queue bar white with Increase Contrast, search switch drawn by iOS (both titles show), liquid drop on tapping search.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.12",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Apple Music / Library switch in light mode: white selected pill on a faint grey track (was black).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.11",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Fixes the crash on launch in 1.2.9/1.2.10 (the light/dark glass colour called itself forever).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.10",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Fixes 1.2.9 freezing / closing Music (light-mode colours were re-set in a loop).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.9",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Player Colors setting (Automatic / Pink / White); light mode: clear frosted glass with dark icons, readable text, light status blur.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.8",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Follows Increase Contrast: off = white star, Music's own artist colour, see-through queue pill row; on = pink accents, black row (as before).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Hooks on Music's own button classes retry until they exist (cold start after a reboot).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Animated cover stops when the next song is from another album (song info refreshed while the player is open, old video dropped on change).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Animated cover also matched by the playing song's title on the album page; Lossless badge back to Music's own (no glass).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Animated cover matched to its album by the header text Music draws itself (no labels after a reboot meant no match).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Animated cover: only the album's own header video is taken (a music video tile elsewhere was picked before), remembered per album.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "An album / artist share button no longer stays behind on Library.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Player \u2022\u2022\u2022 / Lossless / album download found by symbol and text too (VoiceOver labels are empty after a reboot, which broke them).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Public release: package id com.nano.musicpill (replaces com.user.musicpill).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.1.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Rootless and rootful packages kept apart (1.1.0 published the rootful one by mistake).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Release build: arm64 + arm64e (every iPhone that runs iOS 16), rootless and rootful packages, works on iOS 15.0 - 16.x.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.48",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The account picture was taken for an album's download button and hidden for good; our own buttons are skipped and un-hidden now.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.47",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Account picture drawn by its own image view (UIKit cleared the button's image after other pages), kept in front, debug line.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.46",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Account picture / Edit come back after returning from an album.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.45",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Zoom page transition turned off (back to the normal slide).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.44",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "IOS 26 zoom: tapping an album / playlist / song tile grows its page out of the tile (back shrinks it into the tile) instead of iOS 16's side slide; picture / Edit leave the bar the moment a page opens.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.43",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Library's Edit/Done text made clear at the source (no flash at all).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.42",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Closing always lands at the bottom pill (a stale frame sent it up).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.41",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "No frame of the player after swipe-down close, Music's Edit/Done is hidden inside the bar's layout pass (no flash when tapping Edit).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.40",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Closing the player animates into the bar when it's expanded too (it vanished in one frame), a paused song after launch isn't \"Not Playing\".",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.39",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Library glass Edit always shows (Music's Edit found by position, only ours takes taps), nothing opens when tapping the bar with Not Playing.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.38",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Queue History visible again (pills step aside while it's open), Library glass Edit shows before editing too (Apple's untitled item).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.37",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Queue pills stay when scrolling up into history (no flicker back to Music's), star / \u2022\u2022\u2022 placed every frame and hidden until placed, Library: Edit is a glass checklist circle left of the picture, both pop away / jelly back on scroll.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    }
+   ]
+  }
+ ]
+}
