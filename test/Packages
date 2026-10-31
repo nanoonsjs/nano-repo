@@ -10,11 +10,11 @@ Replaces: com.user.photos26
 Provides: com.user.photos26
 Icon: file:///var/jb/usr/share/Photos26/icon.png
 Architecture: iphoneos-arm64
-Version: 2.4.0
+Version: 2.4.1
 Installed-Size: 412
-Filename: debs/com.nano.photos26_2.4.0_iphoneos-arm64.deb
-Size: 94186
-MD5sum: 704253979d7ffef9711ebcefea42f4c2
-SHA1: 8b283c251a0368d77754c779f893d627584ac1bd
-SHA256: 408c5c79bf99d1ff73a1965d962e76bc045f737114ea47998298aea7bc423077
+Filename: debs/com.nano.photos26_2.4.1_iphoneos-arm64.deb
+Size: 96728
+MD5sum: 66a18849b455371266fc05bf4367d4f0
+SHA1: 581f60c17f1341bbbd1fcd67803da1e8f9382ff2
+SHA256: 6f8357d2ee3dae32c23ad706ffb02b71943442b11e64ee99588d86c36e116156
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.photos26.json
