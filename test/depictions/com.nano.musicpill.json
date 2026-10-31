@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.47"
+     "text": "1.2.48"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.48",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The X circle lines up with the search field (its own centered xmark) and has the same jelly press as the bottom circles",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.47",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "A song that changes by itself (autoplay / next song) no longer takes the previous album's animated cover; a cover is only tied to an album when you tap Play or a song on that album's page. Old saved covers are cleared once.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.18",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "New setting \"Animated Album Covers\": a cover found once is saved and plays in the player every time after; turning it off deletes the saved covers",
      "useSpacing": true
     },
     {
