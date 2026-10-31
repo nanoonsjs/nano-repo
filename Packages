@@ -40,48 +40,6 @@ SHA256: 269c81f57e1d771d6dc6b4e273554bd25e7a366f60a809b96a48e9e923b4b478
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
 
-Package: com.nano.musicpill
-Name: MusicPill
-Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.musicpill
-Replaces: com.user.musicpill
-Provides: com.user.musicpill
-Architecture: iphoneos-arm
-Version: 1.2.16
-Installed-Size: 736
-Filename: debs/com.nano.musicpill_1.2.16_iphoneos-arm.deb
-Size: 204210
-MD5sum: d9bbef8fcb778104b47a43ed6b8e9b4b
-SHA1: ff1552e40ae86734484d3cc631063f1dcb46b99f
-SHA256: a4b041e3b422fe39fe169c314816223e3929088cb25a3e97acd924e1223a3d5e
-Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
-
-Package: com.nano.musicpill
-Name: MusicPill
-Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.musicpill
-Replaces: com.user.musicpill
-Provides: com.user.musicpill
-Architecture: iphoneos-arm64
-Version: 1.2.16
-Installed-Size: 736
-Filename: debs/com.nano.musicpill_1.2.16_iphoneos-arm64.deb
-Size: 204484
-MD5sum: fb794798e37f09b82ae877b9ef293480
-SHA1: aabc72dfd534c54aecde39e255190f4bf5e5c3bf
-SHA256: 8ae04b9bff314d231d1aae97774ca4c879743b397ef83c6fde851bad45bb3824
-Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
-
 Package: com.nano.photos26
 Name: Photos26
 Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
@@ -123,3 +81,45 @@ SHA1: e07dbd36189892a58b58ea6d777328015b243794
 SHA256: b07912d0b01f915bda5c9c704d746d2ce03cb1f4807786d0c421f65729ae33bf
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
+
+Package: com.nano.musicpill
+Name: MusicPill
+Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.musicpill
+Replaces: com.user.musicpill
+Provides: com.user.musicpill
+Architecture: iphoneos-arm
+Version: 1.2.22
+Installed-Size: 736
+Filename: debs/com.nano.musicpill_1.2.22_iphoneos-arm.deb
+Size: 208336
+MD5sum: c08767d17c67e518c7d7b7adae51dee1
+SHA1: f28c97aa770364220a447a31cd46a08e9df9bc0c
+SHA256: d868dac69b2898116af66e468273eb404d309d70df770b2c7ee1d1d9d0feccd2
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
+
+Package: com.nano.musicpill
+Name: MusicPill
+Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.musicpill
+Replaces: com.user.musicpill
+Provides: com.user.musicpill
+Architecture: iphoneos-arm64
+Version: 1.2.22
+Installed-Size: 736
+Filename: debs/com.nano.musicpill_1.2.22_iphoneos-arm64.deb
+Size: 208598
+MD5sum: ec3bb5d8495901dfbf02d13c2c1c4c65
+SHA1: c81365424c70752bcafb0f03f98ddb3a116058fd
+SHA256: 151d053f5c032d7e21f007d925b6e2ad250d22fd4a9d8afdebbe2b8cbf02559a
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
