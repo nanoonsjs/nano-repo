@@ -1,0 +1,308 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#fa3d5f",
+ "headerImage": "",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "2.3.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Repo",
+     "text": "nano (test)"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.3.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Light mode (frosted light glass, dark icons), the photo viewer's top bar is glass again (viewer found without the \"Edit\" label; Edit stays hidden, it's the bottom sliders icon), liquid drop on Years / Months / Days / All Photos when you switch.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.2.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Works after a reboot: buttons recognised without VoiceOver labels, and the Photos-class hooks keep retrying until Photos has loaded them.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.1.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The Years/Months/Days bar is styled the moment it appears (hooked directly, no flicker on launch) and the dark backdrop behind it is hidden too.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Years / Months / Days / All Photos bar: compact liquid glass pill that hides when you scroll up and bounces back when you scroll down.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.0.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Grid top buttons drawn entirely by us inside Apple's button (Apple's pieces only hidden, never moved or resized): no flicker while scrolling, full \"Select\" text, gap to ... in Library and Albums.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.0.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "X shows on Cancel, Select bigger and spaced from ..., select bar never flashes when opening a photo (needs Apple's selection label).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.0.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Grid top buttons (PXCuratedLibraryOverlayButton) styled from inside each button: glass Select capsule, glass X for Cancel, bigger glass ... circle, larger touch areas; select bar pinned to a fixed spot on screen (no slide-down when Apple moves the toolbar).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.9.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Select bar draws its own share / trash (pressing Apple's), so Apple rebuilding its buttons can't flicker; bar height locked while selecting; grid top glass removed again (debug map of it instead).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.8.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "No flicker when Select opens (Apple's share / trash icons ride inside the splitting circles), grid top buttons on liquid glass: Select capsule (bigger touch area), Cancel -> glass X, bigger ...",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.7.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Select bar like iOS 26 (51pt circles, small round pill that hugs its text, icons centered in their circles, extra ... hidden), the split animation replays every time Select opens, middle pill shows \"N Selected\" (iOS 16 has no show-only-selected view to open).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.6.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Select mode found by \"no thumbnail strip on screen\" (the viewer always has one), so no video player / edit there; select bar sized like the tab pill; liquid split animation when Select opens.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.5.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Select mode in the grid gets the iOS 26 bar (glass share / trash circles, \"Show Selected (N)\" capsule) and no video player; jelly only on share, trash and back; favorite burst animation; the timer shows the length to the hundredth (00:05.83).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Hold the video slider: the player turns into a big iOS 26 timer (elapsed 00:01.30 on the left, length on the right, thick bar); jelly runs on real spring physics every frame (no more janky restarted animations).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.3.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Thumbnails rounded the moment they appear (PUTilingView hook), smooth slow scrubbing (one seek at a time, chasing the finger), bigger video slider, iOS 26 jelly on every glass button (swells, leans toward your finger, wobbles back), top back / ... circles jelly too.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Videos stay one thumbnail in the strip (PUScrubberView never expands), playhead hidden, rounded thumbnail tiles, trash circle fixed, white top icons, liquid wobble on the top glass when you swipe to another photo, seamless video looping.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Rounded iOS 26 thumbnails, playhead line hidden, Recently Deleted (no gray bars, glass Delete / Recover, glass top), back-arrow circle, thumbnail strip map in debug to stop the video frame spread next.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The top \"...\" is now whichever right button isn't Edit, so the top glass (back circle, date capsule, ... circle) shows and Edit hides.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "No gray bar backgrounds top or bottom, thumbnails always shown, slider moves relative to your drag (like Apple's), Edit found directly when the adjust button is tapped.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Player capsule only for videos, scrubber finds the real player (asset duration, on-screen layer), Apple's frame strip hidden while ours works, top glass fixed, smaller glass buttons. [play]  [scrubber]  [mute] glass circle behind \"...\", Edit moves to the bottom (adjust). with an empty layer mask, and our own buttons call Apple's buttons, so every action (share sheet, delete sheet, favorite...) is Apple's own. Apple's chrome (tap the photo to hide the bars).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    }
+   ]
+  }
+ ]
+}
