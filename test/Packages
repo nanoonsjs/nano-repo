@@ -1,20 +1,20 @@
-Package: com.nano.photos26
-Name: Photos26
-Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Package: com.nano.musicpill
+Name: MusicPill
+Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
 Maintainer: nano
 Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.photos26
-Replaces: com.user.photos26
-Provides: com.user.photos26
-Icon: file:///var/jb/usr/share/Photos26/icon.png
+Conflicts: com.user.musicpill
+Replaces: com.user.musicpill
+Provides: com.user.musicpill
+Icon: file:///var/jb/usr/share/MusicPill/icon.png
 Architecture: iphoneos-arm64
-Version: 2.5.1
-Installed-Size: 396
-Filename: debs/com.nano.photos26_2.5.1_iphoneos-arm64.deb
-Size: 93330
-MD5sum: 98ca7d18474e68e8eea69c442bc730ce
-SHA1: 3c22675805f3f6172af6dd47cc69dd54f3bc2d50
-SHA256: 7733ae4ff550cc0169ca0330de393800a7ba1654c0cc17a706a2266ccebc2daf
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.photos26.json
+Version: 1.2.17
+Installed-Size: 736
+Filename: debs/com.nano.musicpill_1.2.17_iphoneos-arm64.deb
+Size: 206702
+MD5sum: 54c0678718c1df7134875dd8e4fc6eca
+SHA1: 3973d75bc68b8b96c2292b94f54cfb28615e0b7d
+SHA256: 4cdd2d19871e3d66a5565e21f2bf7472d7c2b46bba297b77ebc45aaeb9c142af
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
