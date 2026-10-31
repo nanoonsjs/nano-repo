@@ -12,10 +12,10 @@ Architecture: iphoneos-arm
 Version: 0.4.0
 Installed-Size: 440
 Filename: debs/com.nano.control26_0.4.0_iphoneos-arm.deb
-Size: 108344
-MD5sum: 87e2c78e3d847342f263d2f013fb5146
-SHA1: 8930c65e50c2df810c74a70c37874c26878c7c7e
-SHA256: 3c7883b3d449ebdc9d4dafc6164e69a3c30dc430b5ef811137af61a48a9c4e1e
+Size: 108264
+MD5sum: 69c9ca4dc7c9cb136d73d00eea503397
+SHA1: c04ecd8f00f4c15e6cb36bc57e1970bc7d04277c
+SHA256: d9b2e1613ef1a9e7c9e59af4de32c6fdd5b2ed3b9e7ccf0c8f19bc780ece20ae
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
 
@@ -33,10 +33,10 @@ Architecture: iphoneos-arm64
 Version: 0.4.0
 Installed-Size: 440
 Filename: debs/com.nano.control26_0.4.0_iphoneos-arm64.deb
-Size: 108254
-MD5sum: fcdb5d69493b008ecc53f5f0ca38d422
-SHA1: f5c4f10d2bb42b956ff983eb3f02bfc16a4191ad
-SHA256: 24d8fb2cb12c9bad88e1834670d6e54de300ad4a0706f3638d7934a25bd3572d
+Size: 108372
+MD5sum: d7c54adedfd81e64d8ecbc85526275fd
+SHA1: 48be815c787ac30148396c79f94406eae9ca79d3
+SHA256: 269c81f57e1d771d6dc6b4e273554bd25e7a366f60a809b96a48e9e923b4b478
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
 
@@ -54,10 +54,10 @@ Architecture: iphoneos-arm
 Version: 1.2.16
 Installed-Size: 736
 Filename: debs/com.nano.musicpill_1.2.16_iphoneos-arm.deb
-Size: 204376
-MD5sum: b213011ebfef2cfc4a9944e67827ee92
-SHA1: 741c57509217e213ac204bdde5fb0e6d42c5a84b
-SHA256: d3611b72cb7f7ad8aff031dc44826ebf13a91dd2a9b019466fe1ddf275af87bb
+Size: 204210
+MD5sum: d9bbef8fcb778104b47a43ed6b8e9b4b
+SHA1: ff1552e40ae86734484d3cc631063f1dcb46b99f
+SHA256: a4b041e3b422fe39fe169c314816223e3929088cb25a3e97acd924e1223a3d5e
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
 
@@ -75,10 +75,10 @@ Architecture: iphoneos-arm64
 Version: 1.2.16
 Installed-Size: 736
 Filename: debs/com.nano.musicpill_1.2.16_iphoneos-arm64.deb
-Size: 204776
-MD5sum: 360949d972c76a59412ec52f27da3822
-SHA1: caa8a3d3cc215400dbede779df1cc0a148201cd9
-SHA256: a3604a53102dc3bcce67348437553cd6ca2668c92acc7f0fac8c177a39cfa61c
+Size: 204484
+MD5sum: fb794798e37f09b82ae877b9ef293480
+SHA1: aabc72dfd534c54aecde39e255190f4bf5e5c3bf
+SHA256: 8ae04b9bff314d231d1aae97774ca4c879743b397ef83c6fde851bad45bb3824
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
 
@@ -93,13 +93,13 @@ Conflicts: com.user.photos26
 Replaces: com.user.photos26
 Provides: com.user.photos26
 Architecture: iphoneos-arm
-Version: 2.2.1
-Installed-Size: 380
-Filename: debs/com.nano.photos26_2.2.1_iphoneos-arm.deb
-Size: 88914
-MD5sum: 314f2c1a0a12888146b5e676fc0bc110
-SHA1: 49622888ea56965478d95c44284ecef0c9166e78
-SHA256: cd54728cb6dbff12bb75b6bb2e0ca1d6c3961fb9c65bccf458eb22baa0fbb2d8
+Version: 2.3.0
+Installed-Size: 396
+Filename: debs/com.nano.photos26_2.3.0_iphoneos-arm.deb
+Size: 93410
+MD5sum: f6ee6b9be3862602425d656674689d84
+SHA1: eb832ef5371c18c693bf36c619ca3114813168d2
+SHA256: fb905705f6927fd07cd5e17cf11d4af1b31cfb46523fe79c51ac2250cd1f8e94
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
 
@@ -114,12 +114,12 @@ Conflicts: com.user.photos26
 Replaces: com.user.photos26
 Provides: com.user.photos26
 Architecture: iphoneos-arm64
-Version: 2.2.1
-Installed-Size: 380
-Filename: debs/com.nano.photos26_2.2.1_iphoneos-arm64.deb
-Size: 88888
-MD5sum: d4ecf1ac43657d7f42c97d91768e4195
-SHA1: 917e9b8766386e045cb7ddce2deee10f132d0521
-SHA256: 5c571b35d0e19f43288d7bf4d83011cc47fc71cd74a691e7d1a72492564125b6
+Version: 2.3.0
+Installed-Size: 396
+Filename: debs/com.nano.photos26_2.3.0_iphoneos-arm64.deb
+Size: 93364
+MD5sum: e7f3b82b6f178a20905065364275a8c6
+SHA1: e07dbd36189892a58b58ea6d777328015b243794
+SHA256: b07912d0b01f915bda5c9c704d746d2ce03cb1f4807786d0c421f65729ae33bf
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
