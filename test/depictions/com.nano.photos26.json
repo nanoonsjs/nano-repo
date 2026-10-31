@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "2.5.0"
+     "text": "2.5.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -38,55 +38,13 @@
    "views": [
     {
      "class": "DepictionSubheaderView",
-     "title": "Version 2.5.0",
+     "title": "Version 2.5.1",
      "useBoldText": true,
      "useBottomMargin": false
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Media Types / Utilities as a two-column grid of small glass cards (icon + white title), styled right away; Collections title and + now really sit above their glass.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 2.4.2",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Collections title and + sit on top of their glass; rows inside a section's own list get the glass cards too.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 2.4.1",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Albums tab found from its nav bar (cards / glass rows now apply), no dividers, top bar without its grey background, glass + and title, \"Albums\" renamed \"Collections\".",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 2.4.0",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Albums tab, iOS 26 look: album cards with big round corners, Media Types / Utilities rows as liquid glass cards (light and dark).",
+     "markdown": "Back to the 2.3.0 look (the Albums tab changes in 2.4.0 - 2.5.0 are removed); numbered higher so it installs over them.",
      "useSpacing": true
     },
     {
