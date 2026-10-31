@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "2.3.0"
+     "text": "2.4.0"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.4.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Albums tab, iOS 26 look: album cards with big round corners, Media Types / Utilities rows as liquid glass cards (light and dark).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 2.3.0",
