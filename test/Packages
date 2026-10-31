@@ -10,11 +10,11 @@ Replaces: com.user.musicpill
 Provides: com.user.musicpill
 Icon: file:///var/jb/usr/share/MusicPill/icon.png
 Architecture: iphoneos-arm64
-Version: 1.2.41
+Version: 1.2.42
 Installed-Size: 836
-Filename: debs/com.nano.musicpill_1.2.41_iphoneos-arm64.deb
-Size: 228776
-MD5sum: 9f42873d9703228dfa32d6a0c4c651ad
-SHA1: 5247143bf7c50f66c55ff15ac7985f94af498911
-SHA256: f0564bafc85ed1e1a8f2a30cb10e9dd27a0815518c08327ffe6fb2502fd43798
+Filename: debs/com.nano.musicpill_1.2.42_iphoneos-arm64.deb
+Size: 230206
+MD5sum: 9baa6826caa45ccec3a4d514b40463af
+SHA1: 6a9c7ec26fd2d881df12348c20b437d5fe91ed1b
+SHA256: 368988b540a2d01410ae2ac45c0518a179102168fe96cc80c6e2804693432d34
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
