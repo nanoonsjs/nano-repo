@@ -9,10 +9,10 @@ Architecture: iphoneos-arm64
 Version: 0.3.1
 Installed-Size: 208
 Filename: debs/com.nano.instaglass_0.3.1_iphoneos-arm64.deb
-Size: 22092
-MD5sum: e667f4f440fc2a4e97eaf2b5af447827
-SHA1: 79ecccd5e8122e44e556cd8e2f0972e46b7db327
-SHA256: 751d5bd37ddd7bcd8304f582fc93bf2fa8dfc29e9131d73ccff606ae28cd44a6
+Size: 22090
+MD5sum: 46508cc0882a80954f0e8e6c649da2ec
+SHA1: 5e491a0a28f4de084afaabd8564cde93bd0d8539
+SHA256: 5022401ad354ea17c3a634047ff334b7fff0d6bafde540c7b7b2a1dc933d2dc1
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
 
 Package: com.nano.messages26
@@ -21,15 +21,15 @@ Description: iOS 26 style Messages: liquid glass message field and + button, gla
 Maintainer: nano
 Author: nano
 Section: Tweaks
-Depends: mobilesubstrate
+Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 0.1.0
-Installed-Size: 208
-Filename: debs/com.nano.messages26_0.1.0_iphoneos-arm64.deb
-Size: 22040
-MD5sum: 9a51d59e31252d248f95c054334155a5
-SHA1: 10948a1006fe5a38db26f8557e34e1d9816a51ce
-SHA256: 74e32ea7eeb69a601d0e9ad5b00c1b810f6a1ce7f75089ab8432693a7742b12f
+Version: 0.2.0
+Installed-Size: 244
+Filename: debs/com.nano.messages26_0.2.0_iphoneos-arm64.deb
+Size: 33646
+MD5sum: 641453c1f9a1ab689dcf1686e09a604d
+SHA1: 899b448c878176ffefce4c5094a0fe663e12608f
+SHA256: 029e412f4c216eb740d5f0d82bc3df5b4852522924c30078524e8028222cdd7f
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.musicpill
@@ -47,8 +47,8 @@ Architecture: iphoneos-arm64
 Version: 1.2.71
 Installed-Size: 936
 Filename: debs/com.nano.musicpill_1.2.71_iphoneos-arm64.deb
-Size: 261350
-MD5sum: 33bf11c5e784190f796e9844266981aa
-SHA1: d57d8efe8dc6be80876831807f071125e64005d4
-SHA256: fd8057d0384d56134a15960952170a4df5da00745e04a38f082b7bb080822530
+Size: 261212
+MD5sum: 0d8bf950e6f5ed55bd6aa895da1385e9
+SHA1: 1f3e44d4829130921d87e52f09ff80813b00260d
+SHA256: d490350b94896a1e6d58a18b92304645813916302060416cbc59a27007171f5e
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
