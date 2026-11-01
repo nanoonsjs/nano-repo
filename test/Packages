@@ -1,3 +1,20 @@
+Package: com.nano.instaglass
+Name: InstaGlass
+Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.1.0
+Installed-Size: 204
+Filename: debs/com.nano.instaglass_0.1.0_iphoneos-arm64.deb
+Size: 13338
+MD5sum: c298d2b447c67f17a97d226b0074e54b
+SHA1: 72bd436be34c9eecd47dc41c38252a8a4deccb0c
+SHA256: 2d3a00a19cb43888487f25cb7d3bd2951562c6d077d2c7a98d8965e7a8a9181f
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
+
 Package: com.nano.musicpill
 Name: MusicPill
 Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
@@ -13,8 +30,8 @@ Architecture: iphoneos-arm64
 Version: 1.2.71
 Installed-Size: 936
 Filename: debs/com.nano.musicpill_1.2.71_iphoneos-arm64.deb
-Size: 261486
-MD5sum: 8d94087d7faac70a8e41a66c7a953d49
-SHA1: 35a21fb908dced0617ae634733b88d3f0e7d1eb1
-SHA256: a42e1b974b48c1d9b3ece78d7e9b34a616189f7b3c584d36f2f48b644231c160
+Size: 261494
+MD5sum: abe75c5016cd0ff5b81149f3f3b39a64
+SHA1: 626b9d695a7db4c4e8154e765f2b81253d354b12
+SHA256: a182678ff0b966dc71a548b9a0aa51d1abc74f8dd7b8f1dafc4a41e6b2f447b7
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
