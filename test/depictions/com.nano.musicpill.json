@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.50"
+     "text": "1.2.51"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.51",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Up Next shows the song name (the \"E\" badge was read instead), pops out of the pill as a liquid drop, follows the pill when it minimizes / expands, and drops back into it when you pull it away; Pin to Search uses the pill's song if needed",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.50",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Animated Album Covers is off by default (turn it on in MusicPill settings)",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.21",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "No more wrong animated covers: covers are no longer guessed from the album page's song list (it also lists other albums), a tie only happens when you press Play / a song on that same album page while it's on screen. Saved covers are cleared once more.",
      "useSpacing": true
     },
     {
