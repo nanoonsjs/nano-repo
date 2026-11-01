@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.48"
+     "text": "1.2.49"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.49",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "\"Up Next\" capsule grows out of the pill 10s before a song ends (tap to skip, swipe away); pin songs to Search from the player's \u2022\u2022\u2022 menu, they show as glass chips on top of Search (tap to find, hold to unpin)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.48",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Animated covers made safer and lighter: the cover video pauses when the player is closed or Music is in the background, an expired saved cover is forgotten instead of showing black, text reading never touches freed objects, fewer page scans, and memory is freed on low memory",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.19",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "A song that changes by itself (autoplay / next song) no longer takes the previous album's animated cover; a cover is only tied to an album when you tap Play or a song on that album's page. Old saved covers are cleared once.",
      "useSpacing": true
     },
     {
