@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.60"
+     "text": "1.2.61"
     },
     {
      "class": "DepictionTableTextView",
@@ -38,13 +38,13 @@
    "views": [
     {
      "class": "DepictionSubheaderView",
-     "title": "Version 1.2.60",
+     "title": "Version 1.2.61",
      "useBoldText": true,
      "useBottomMargin": false
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "New setting \"Animated Tab Icons\" (off by default): each tab icon does its own little animation when tapped",
+     "markdown": "Removed Animated Tab Icons",
      "useSpacing": true
     },
     {
