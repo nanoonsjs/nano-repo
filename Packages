@@ -95,6 +95,7 @@ MD5sum: f2c9a47a56a9413cc7663d267e4d4736
 SHA1: 97b044a0d18e492f1b1df5f0bf6fe654485acb16
 SHA256: b44fe1e3917721f0a3bb8dae7f1e9dfc72e91b4fd5661fcf9d7d36374d6e42a2
 Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
 
 Package: com.nano.musicpill
@@ -116,6 +117,7 @@ MD5sum: 8d94087d7faac70a8e41a66c7a953d49
 SHA1: 35a21fb908dced0617ae634733b88d3f0e7d1eb1
 SHA256: a42e1b974b48c1d9b3ece78d7e9b34a616189f7b3c584d36f2f48b644231c160
 Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
 
 Package: com.nano.photos26

@@ -1,0 +1,84 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#fa3d5f",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header.jpg",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 14,
+     "itemSize": "{300, 300}",
+     "screenshots": [
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-preview.jpg",
+       "accessibilityText": "MusicPill preview"
+      }
+     ]
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**The iOS 26 Apple Music look, on iOS 16.** Liquid glass everywhere.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Features",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **Swipe the title to skip**, hand-tracked with a bounce\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **Light & dark mode**: frosted or dark glass, automatic\n- **AND MORE**",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "1.2.71"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Compatibility",
+     "text": "iOS 15 – 16, rootless and rootful"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Tested on",
+     "text": "iPhone 13 Pro Max, iOS 16.1"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.71",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Official release.",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}
