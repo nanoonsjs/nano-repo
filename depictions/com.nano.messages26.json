@@ -2,12 +2,23 @@
  "minVersion": "0.1",
  "class": "DepictionTabView",
  "tintColor": "#0a84ff",
- "headerImage": "",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header.jpg",
  "tabs": [
   {
    "tabname": "Details",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 14,
+     "itemSize": "{300, 328}",
+     "screenshots": [
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-preview.jpg",
+       "accessibilityText": "Messages26 preview"
+      }
+     ]
+    },
     {
      "class": "DepictionMarkdownView",
      "markdown": "**Messages, rebuilt in the iOS 26 Liquid Glass style.** Every bar, button and card gets the new glass look, plus a set of extra features you can switch on one by one.",
