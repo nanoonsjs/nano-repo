@@ -3,16 +3,16 @@ Label: nano (test)
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Test builds by nano
 MD5Sum:
- 9b0ed32a932ea45a65f8634572b99d8c 2511 Packages
- 8351efd2fb92a72545a1cf4118c20607 1147 Packages.gz
- 9f80807f3aa7ea01aa3bbab267c60431 1248 Packages.bz2
- 34f41f9cbf4315688e801257931043f6 1224 Packages.xz
+ 2d5001d1a4d0613b6fc6e9cb97692717 3309 Packages
+ 3f706aa5f6f7dd3b52f9c8c615821fe7 1262 Packages.gz
+ dd3e12b0d99e7e66e6406a25cf042c8a 1444 Packages.bz2
+ b93e020d409bdc0ced88597d3879b655 1328 Packages.xz
 SHA256:
- c0128b67069bbdb2dbc4bfb260cbe03b719744c3435d6c0e2b1017851eceb260 2511 Packages
- cfffc21ad3be915f36509e5d551b01cab9fc3c2fa63eb7e075d5f26e71b7b9fa 1147 Packages.gz
- 908f03aeb2a7cb98cb241a40fecbfa63b0c510596e609c6a5843f6cefcf1cee6 1248 Packages.bz2
- 3f9bed159e0d81377f7daaa81b29ad9bbe1e0d8774ee605654e8217f4b0cc769 1224 Packages.xz
+ 48b21fe074d6d26562ce91d66906721cabc05f339781e00d4014b30bb6e53c96 3309 Packages
+ e5490807f6fa1ef3814b5f0752bbf8559ea87b122ecc8fdc7fef6517cf03551b 1262 Packages.gz
+ 7fba163fc76dcfadb05dcc24e443eea6b4becaf9bec4520863f0c989d4a41b4f 1444 Packages.bz2
+ 8d1cd3e22c6f5e20890d54100afc8c84e681cb2e535240915cc2e21f45a531fa 1328 Packages.xz

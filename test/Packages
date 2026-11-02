@@ -15,6 +15,23 @@ SHA1: e4d84df1665ed7b9c0fe377727e0ca2e63bb33c9
 SHA256: 6584bc8105d0828fa1b3940b2eb7935bd52f484bd7788c960dd4ebf26a4ae257
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
+Package: com.nano.messages26
+Name: Messages26
+Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64e
+Version: 1.0.2
+Installed-Size: 1056
+Filename: debs/com.nano.messages26_1.0.2_iphoneos-arm64e.deb
+Size: 236510
+MD5sum: 28f7d890a9b61236df07086d8591b68c
+SHA1: 567d49664c8ef9f91d50a26db72f44c97919d148
+SHA256: daabdd4d69b84517f915d442b49077d215a476c46c79401d9038c66be6b37ed7
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
+
 Package: com.nano.instaglass
 Name: InstaGlass
 Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
