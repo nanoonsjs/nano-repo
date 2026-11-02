@@ -3,16 +3,16 @@ Label: nano
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Tweaks by nano
 MD5Sum:
- 271f860db0e45790b9a35e3168b0aa3f 7347 Packages
- 68df43f77a0f949466b830707ef9dd60 1784 Packages.gz
- 458207b908d8a9addddd1f18a3cafd01 2013 Packages.bz2
- 2f4e73e9eae8f09b543e55a58a37cfd1 1776 Packages.xz
+ 3aca2caa3115111998c058095f9c4dc0 7347 Packages
+ a47cb8a36bb12ca32d5f1850dc00a56c 1786 Packages.gz
+ 1446147719126d37ae84b7532dde26db 2011 Packages.bz2
+ 4ee015115f907705f9df33907ad43b5d 1776 Packages.xz
 SHA256:
- 459700a1e8528a96a23082c04142e51a09ad9c30a62dfdb82cacf2cf9aa77c47 7347 Packages
- 6f6906817f947235844671cc3f853c6151ce7fad95053bacf41477e11dbab23e 1784 Packages.gz
- 932ef6052410efae5a95cc089d8ded9489a8f9c986730073affbedb27d0c3af3 2013 Packages.bz2
- 076f54cd330fa1421ecf0d973729f23f1f48b54a262ba0f42c447496746c0b27 1776 Packages.xz
+ 5692c003b6f2c213c36934e39db2a3470aa8503d3aeb6a7467b71d0247ca58aa 7347 Packages
+ 145aab1a770fc3712964e832e64942c37bfc6c9c9938ca1de173008ed93ed044 1786 Packages.gz
+ 54a278fd785a1d84a8ea4a5523e45d3544a5741e26a517fe289212ae07999114 2011 Packages.bz2
+ d87137d07eecdcc9f68d91c0d1dc91aa65b232e40ffa1e9a017c1877b04090a4 1776 Packages.xz

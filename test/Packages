@@ -6,13 +6,13 @@ Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.0.3
+Version: 1.1
 Installed-Size: 1056
-Filename: debs/com.nano.messages26_1.0.3_iphoneos-arm64.deb
-Size: 237100
-MD5sum: 2f67aeeecc4516404161aed925f0cb09
-SHA1: de7495f47a35416f2e9780963a6d14fe2583268d
-SHA256: a6ef2f12d81ebda42e9f93c72c7c472afb84e13feb0cc110c73ea318a9dbc915
+Filename: debs/com.nano.messages26_1.1_iphoneos-arm64.deb
+Size: 237770
+MD5sum: bcb83c2508492bdf78db37f2a8ddd8e4
+SHA1: fe33a585aadf0014c503088dd9311078bf85585a
+SHA256: 48f8874363b103d1b494ffe71b80597363ba8192c275c9fc00ff80afa24eefcd
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.messages26
@@ -23,13 +23,13 @@ Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.0.3
+Version: 1.1
 Installed-Size: 1056
-Filename: debs/com.nano.messages26_1.0.3_iphoneos-arm64e.deb
-Size: 236948
-MD5sum: 36028bc4811b4b41afa49737ad09d15a
-SHA1: 2322d009a9b90c6caac38f9c0af690a90efc7a8f
-SHA256: 4ef634a16be03690f08e9c90367dd8bf9fb4d5b15cb98df464f706b061bfde93
+Filename: debs/com.nano.messages26_1.1_iphoneos-arm64e.deb
+Size: 236916
+MD5sum: 285103a68d0082556cec00c73e3731dc
+SHA1: b1f4388703dc68868068cdfee5e0c2a28f20889e
+SHA256: e8e807720713d6e81e4f7612a00001d10e738b91f9f144f0df5dd4734d7dc64d
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.instaglass
@@ -43,10 +43,10 @@ Architecture: iphoneos-arm64
 Version: 0.3.1
 Installed-Size: 208
 Filename: debs/com.nano.instaglass_0.3.1_iphoneos-arm64.deb
-Size: 22080
-MD5sum: 357eecc655370e521ab288cf98fadf24
-SHA1: 9df732f1b7c09ccb26b545448e8bc2efc0e4218f
-SHA256: edaa16731dbba02b4b1701cbfdf935949688a5e1d8cb02ede9383a4eabebd01e
+Size: 22036
+MD5sum: e035ae393370371ad68b1cafe2644ec7
+SHA1: 2b7b3f891dc2120fc02981ff13bcceb75fe66ffd
+SHA256: 9e86fb2fdf534bec4559a7055ea066153b222481141c9c1f08790c7a1145679e
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
 
 Package: com.nano.musicpill
@@ -64,8 +64,8 @@ Architecture: iphoneos-arm64
 Version: 1.2.71
 Installed-Size: 936
 Filename: debs/com.nano.musicpill_1.2.71_iphoneos-arm64.deb
-Size: 261180
-MD5sum: efe084a839518b08e45fa2a0d57e8fbe
-SHA1: b6a1c3add79e6facddb35cb6f43f752ae28dadc4
-SHA256: dbeabe9f0e765e8981774b1f030f6bab6bf20760b457b27156905bd1d10f68ea
+Size: 261694
+MD5sum: 9426f328bc0b02025e1c3a0fb310b24b
+SHA1: 4964711d81302e3efb5d56d5b06681bac75a8986
+SHA256: 335bfb86d2fa310f325a9081ff8d0f515caf7fd49584afc3705132b675577fa1
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json

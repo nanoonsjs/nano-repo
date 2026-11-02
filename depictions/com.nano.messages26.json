@@ -77,7 +77,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.0"
+     "text": "1.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -95,6 +95,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- The contact name now always shows in its glass capsule at the top of a chat\n- Name and capsule sit a little lower under the photo\n- The old small name no longer peeks out above the capsule\n- Smoother on older iPhones (8, 8 Plus, X)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.0",
