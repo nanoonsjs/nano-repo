@@ -40,47 +40,41 @@ SHA256: 269c81f57e1d771d6dc6b4e273554bd25e7a366f60a809b96a48e9e923b4b478
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png
 
-Package: com.nano.photos26
-Name: Photos26
-Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Package: com.nano.messages26
+Name: Messages26
+Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.
 Maintainer: nano
 Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.photos26
-Replaces: com.user.photos26
-Provides: com.user.photos26
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm
-Version: 2.3.0
-Installed-Size: 396
-Filename: debs/com.nano.photos26_2.3.0_iphoneos-arm.deb
-Size: 93410
-MD5sum: f6ee6b9be3862602425d656674689d84
-SHA1: eb832ef5371c18c693bf36c619ca3114813168d2
-SHA256: fb905705f6927fd07cd5e17cf11d4af1b31cfb46523fe79c51ac2250cd1f8e94
-Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
+Version: 1.0
+Installed-Size: 1056
+Filename: debs/com.nano.messages26_1.0_iphoneos-arm.deb
+Size: 235378
+MD5sum: 1304a4a19e9dd22b96db8f7facc2829a
+SHA1: be976e7dcdcdeed370666d75e123aa86e19db25f
+SHA256: d701e5b43e05534decd4233747a496d675bfb36c8319078f2af512c206b3fee7
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png
 
-Package: com.nano.photos26
-Name: Photos26
-Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Package: com.nano.messages26
+Name: Messages26
+Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.
 Maintainer: nano
 Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.photos26
-Replaces: com.user.photos26
-Provides: com.user.photos26
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm64
-Version: 2.3.0
-Installed-Size: 396
-Filename: debs/com.nano.photos26_2.3.0_iphoneos-arm64.deb
-Size: 93364
-MD5sum: e7f3b82b6f178a20905065364275a8c6
-SHA1: e07dbd36189892a58b58ea6d777328015b243794
-SHA256: b07912d0b01f915bda5c9c704d746d2ce03cb1f4807786d0c421f65729ae33bf
-Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
+Version: 1.0
+Installed-Size: 1056
+Filename: debs/com.nano.messages26_1.0_iphoneos-arm64.deb
+Size: 235872
+MD5sum: a2276a66286c69eada764bccadab29f6
+SHA1: dbccff7467b98d7df0fe15dcf13e93e6eaf9475b
+SHA256: 82ab0a364c2b90271aad0c69930d87e60f0c14e9c92356967c0bac97600b50d5
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png
 
 Package: com.nano.musicpill
 Name: MusicPill
@@ -123,3 +117,45 @@ SHA1: 35a21fb908dced0617ae634733b88d3f0e7d1eb1
 SHA256: a42e1b974b48c1d9b3ece78d7e9b34a616189f7b3c584d36f2f48b644231c160
 Depiction: https://nanoonsjs.github.io/nano-repo/
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png
+
+Package: com.nano.photos26
+Name: Photos26
+Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.photos26
+Replaces: com.user.photos26
+Provides: com.user.photos26
+Architecture: iphoneos-arm
+Version: 2.3.0
+Installed-Size: 396
+Filename: debs/com.nano.photos26_2.3.0_iphoneos-arm.deb
+Size: 93410
+MD5sum: f6ee6b9be3862602425d656674689d84
+SHA1: eb832ef5371c18c693bf36c619ca3114813168d2
+SHA256: fb905705f6927fd07cd5e17cf11d4af1b31cfb46523fe79c51ac2250cd1f8e94
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png
+
+Package: com.nano.photos26
+Name: Photos26
+Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.photos26
+Replaces: com.user.photos26
+Provides: com.user.photos26
+Architecture: iphoneos-arm64
+Version: 2.3.0
+Installed-Size: 396
+Filename: debs/com.nano.photos26_2.3.0_iphoneos-arm64.deb
+Size: 93364
+MD5sum: e7f3b82b6f178a20905065364275a8c6
+SHA1: e07dbd36189892a58b58ea6d777328015b243794
+SHA256: b07912d0b01f915bda5c9c704d746d2ce03cb1f4807786d0c421f65729ae33bf
+Depiction: https://nanoonsjs.github.io/nano-repo/
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png

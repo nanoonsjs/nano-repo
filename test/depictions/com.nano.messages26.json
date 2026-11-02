@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "iOS 26 style Messages: liquid glass message field and + button, glass back / name / FaceTime buttons, and a liquid glass app menu instead of the app strip. Made by nano."
+     "markdown": "Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more."
     },
     {
      "class": "DepictionSeparatorView"
@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.18.14"
+     "text": "1.0"
     },
     {
      "class": "DepictionTableTextView",

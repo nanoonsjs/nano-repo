@@ -1,3 +1,20 @@
+Package: com.nano.messages26
+Name: Messages26
+Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 1056
+Filename: debs/com.nano.messages26_1.0_iphoneos-arm64.deb
+Size: 235872
+MD5sum: a2276a66286c69eada764bccadab29f6
+SHA1: dbccff7467b98d7df0fe15dcf13e93e6eaf9475b
+SHA256: 82ab0a364c2b90271aad0c69930d87e60f0c14e9c92356967c0bac97600b50d5
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
+
 Package: com.nano.instaglass
 Name: InstaGlass
 Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
@@ -9,28 +26,11 @@ Architecture: iphoneos-arm64
 Version: 0.3.1
 Installed-Size: 208
 Filename: debs/com.nano.instaglass_0.3.1_iphoneos-arm64.deb
-Size: 22084
-MD5sum: bdc89a4460396215446ff6de5279615c
-SHA1: 9499022213dd6345715f1969e11c512292e626d1
-SHA256: f3ee5269ef6e97bfc0d13a545f3a1667a3bfb36d2553cb7f3587d2e219c268e1
+Size: 22088
+MD5sum: 6859aea1479aa69add44bd96fe923fe3
+SHA1: 2b22968ff222bfdd7396d3da64aa35ef1bdda633
+SHA256: cd49317b4d72a10028a43594c957752b06b0bf0a408d43cde076f4e92dccdf2f
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
-
-Package: com.nano.messages26
-Name: Messages26
-Description: iOS 26 style Messages: liquid glass message field and + button, glass back / name / FaceTime buttons, and a liquid glass app menu instead of the app strip. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Version: 0.18.14
-Installed-Size: 1056
-Filename: debs/com.nano.messages26_0.18.14_iphoneos-arm64.deb
-Size: 235796
-MD5sum: 5d82b1567a74929565c3d8bf54077ba4
-SHA1: 8bdd7f8a31939022190ead5a0d91cd62cde334e7
-SHA256: 7a15438170d60b0bdfaa3b2223297962b826ca84a1c92326de3a1fb8886ef32b
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.musicpill
 Name: MusicPill
@@ -47,8 +47,8 @@ Architecture: iphoneos-arm64
 Version: 1.2.71
 Installed-Size: 936
 Filename: debs/com.nano.musicpill_1.2.71_iphoneos-arm64.deb
-Size: 261698
-MD5sum: 0851425e29a9c7ad9e1dc71b2267d890
-SHA1: 51ba2d83f8c9fbae83aed63910acc4cd61b8ad81
-SHA256: 05967f09e3b695ee1a814ad68fd274aaacfbc3e6d9197700d9268bb4285cb833
+Size: 261114
+MD5sum: 2c09a9f109b9d44ffe53b0349775e3bd
+SHA1: 310a36df8ff8e4c49f6c0463de001c32dc7f93f0
+SHA256: 8223a3263f03901d66397c3dce668e6420c5b58b566b6fea8b09213129bd4083
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json

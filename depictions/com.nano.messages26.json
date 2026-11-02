@@ -1,0 +1,101 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#0a84ff",
+ "headerImage": "",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Messages, rebuilt in the iOS 26 Liquid Glass style.** Every bar, button and card gets the new glass look, plus a set of extra features you can switch on one by one.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Liquid Glass design",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Glass message bar with a round **+** button that grows into an app menu (Photos, Camera, Apple Cash, stickers and more). Hold a row to reorder it, or hold **+** to jump straight to Photos.\n- **Search pill** at the bottom of the conversation list with a mic, and a glass new-message button beside it. While you search, it rides on top of the keyboard.\n- Glass back, Edit, name and FaceTime buttons, with a bigger contact photo and name at the top of a chat.\n- Jelly bounce on every glass button.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Bubbles",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Glass rim on message bubbles, with a deeper blue for your iMessages.\n- **Swipe right** on any message to reply. Tapback reactions slide along with the message.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Contact page",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- New design with glass Back and Edit, three round call / video / mail buttons and tabs: **Info, Backgrounds, Photos, Links, Documents, Collaboration**. Tabs only show up when the chat has something in them.\n- **Backgrounds** for each chat: None, Photo, Color, Sky, Water, Aurora, Shuffle (up to 5 photos) or Live Photo (hold to play). Pull up past the last message to see the whole background.\n- **Bubble Colors**: pick colors or gradients for your bubbles and theirs.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Custom features (off until you turn them on)",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Open them from the glass button at the top right of the conversation list.\n\n- **Chat Lock**: Face ID before a chat opens, with its preview hidden on the list. Choose how long it stays unlocked.\n- **Contact Frames**: animated frames around up to 3 people's photos, or make your own from any 3 emojis with a ring color and animation.\n- **3D Reactions**: glossy 3D heart, thumbs, HA HA, !! and ? tapbacks.\n- **Keyword Effects**: emoji rain for \"love you\", \"congrats\", \"lol\", \"good night\" and more.\n- **Live Read Time**: \"Read 2m ago\" that keeps counting.\n- **Spelling Fix**: a glass \"Fix typos\" chip above the message box, with your own list of ignored words.\n- **Mood Detection**: a small mood pill under their name, worked out on your phone.\n- **Saved Messages** and **Message Reminders**: hold a message to save it or get reminded about it later.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "1.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Compatibility",
+     "text": "iOS 16, rootless and rootful"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "First public release.",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}
