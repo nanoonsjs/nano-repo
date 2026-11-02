@@ -2,7 +2,7 @@
  "minVersion": "0.1",
  "class": "DepictionTabView",
  "tintColor": "#0a84ff",
- "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header.jpg",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header2.jpg",
  "tabs": [
   {
    "tabname": "Details",
