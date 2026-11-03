@@ -2,7 +2,7 @@
  "minVersion": "0.1",
  "class": "DepictionTabView",
  "tintColor": "#0a84ff",
- "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header2.jpg",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header3.jpg",
  "tabs": [
   {
    "tabname": "Details",
@@ -10,12 +10,20 @@
    "views": [
     {
      "class": "DepictionScreenshotsView",
-     "itemCornerRadius": 14,
-     "itemSize": "{300, 328}",
+     "itemCornerRadius": 16,
+     "itemSize": "{200, 432}",
      "screenshots": [
       {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-preview.jpg",
-       "accessibilityText": "Messages26 preview"
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-shot1.jpg",
+       "accessibilityText": "New Contacts UI"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-shot2.jpg",
+       "accessibilityText": "Enhanced Contact Page"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-shot3.jpg",
+       "accessibilityText": "Immersive Chat Experience"
       }
      ]
     },
