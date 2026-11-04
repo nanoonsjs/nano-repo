@@ -14,16 +14,16 @@
      "itemSize": "{200, 432}",
      "screenshots": [
       {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-shot1.jpg",
-       "accessibilityText": "New Contacts UI"
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-v2-shot1.jpg",
+       "accessibilityText": "Conversation list with pinned contacts"
       },
       {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-shot2.jpg",
-       "accessibilityText": "Enhanced Contact Page"
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-v2-shot2.jpg",
+       "accessibilityText": "Chat with a photo background"
       },
       {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-shot3.jpg",
-       "accessibilityText": "Immersive Chat Experience"
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-v2-shot3.jpg",
+       "accessibilityText": "New contact page"
       }
      ]
     },
