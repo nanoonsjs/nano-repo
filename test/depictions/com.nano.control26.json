@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6.1"
+     "text": "0.6.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.6.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Pages are separate: only the page you're on shows, the others fade out as you swipe",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.6.1",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Real AirPlay picker in the round button (AVRoutePickerView) and the small original fully hidden; Apple's gray slider icons fully hidden; transport row found reliably and placed like iOS 26; brightness slider tracks your finger directly (1:1, every touch update).",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.1",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Song info + artwork from MediaRemote (\"Not Playing\" when idle), round AirPlay finds Apple's button by position too, transport buttons pulled together near the bottom, smoother stretch / spring / icon changes. left-aligned. Built as an overlay; Apple's play buttons stay as-is. (kept hidden by setAlpha hooks) and a transform during the bounce. on screen, wrapped in @try.",
      "useSpacing": true
     },
     {
