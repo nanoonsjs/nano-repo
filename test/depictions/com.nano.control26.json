@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6.5"
+     "text": "0.6.6"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.6.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Big Music / Connectivity and their copies disappear at once when Control Center closes",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.6.5",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Spring physics (per screen refresh) for the jelly buttons and slider stretch, favorite star only for Apple Music + burst animation, smaller AirPlay capsule tucked under the volume slider, debug shows Music's supported commands so the favorite command can be confirmed.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.5",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Every view hidden in the music module is tracked and restored when it switches between small and expanded (fixes missing back button and the doubled AirPlay icons). Expanded player gets an \"AirPlay\" capsule under the volume slider and a favorite star left of the play controls.",
      "useSpacing": true
     },
     {
