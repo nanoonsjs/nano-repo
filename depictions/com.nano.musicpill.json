@@ -2,7 +2,7 @@
  "minVersion": "0.1",
  "class": "DepictionTabView",
  "tintColor": "#fa3d5f",
- "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header.jpg",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg",
  "tabs": [
   {
    "tabname": "Details",
@@ -10,12 +10,16 @@
    "views": [
     {
      "class": "DepictionScreenshotsView",
-     "itemCornerRadius": 14,
-     "itemSize": "{300, 300}",
+     "itemCornerRadius": 16,
+     "itemSize": "{200, 432}",
      "screenshots": [
       {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-preview.jpg",
-       "accessibilityText": "MusicPill preview"
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot1.jpg",
+       "accessibilityText": "iOS 26 artist page"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot2.jpg",
+       "accessibilityText": "About sheet"
       }
      ]
     },
@@ -54,7 +58,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Compatibility",
-     "text": "iOS 15 – 16, rootless and rootful"
+     "text": "iOS 15 \u2013 16, rootless and rootful"
     },
     {
      "class": "DepictionTableTextView",
