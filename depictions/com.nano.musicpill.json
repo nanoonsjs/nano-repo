@@ -20,6 +20,14 @@
       {
        "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot2.jpg",
        "accessibilityText": "About sheet"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot3.jpg",
+       "accessibilityText": "Now playing"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot4.jpg",
+       "accessibilityText": "Up Next queue"
       }
      ]
     },
