@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano."
+     "markdown": "The iOS 26 Control Center for iOS 16: edit mode with free placement and resizing, Add a Control, up to 6 pages, big Music and Connectivity layouts, layout presets, liquid glass music module, slide to power off, drop-in opening animation and an iOS 18 style settings page. Made by nano."
     },
     {
      "class": "DepictionSeparatorView"
@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6.6"
+     "text": "1.0.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,34 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Apple's AirDrop glyph, smoother page icons and page scrolling (controls shrink, header and + / power stay put), music sliders move from where they are like Apple's (grow while held, stretch at the ends)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "First official release",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.6.6",
@@ -423,34 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Previous/play/next animate on the spring engine (press sink, release pop, arrow fling + ghost, play/pause morph). Expanded connectivity: Cellular Data icon -> iOS 26 signal bars, and a debug map of it.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.7",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Star uses Music's Love command (21) and can un-love (IsNegative); loved state read from the command's active flag. Instant song changes via MediaRemote notifications, artwork slides in the skip direction, swoosh/morph animations on previous/play/next, no haptic on skips, smaller AirPlay icons.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.6",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Spring physics (per screen refresh) for the jelly buttons and slider stretch, favorite star only for Apple Music + burst animation, smaller AirPlay capsule tucked under the volume slider, debug shows Music's supported commands so the favorite command can be confirmed.",
      "useSpacing": true
     },
     {
