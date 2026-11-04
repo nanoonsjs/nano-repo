@@ -1,0 +1,120 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#0a84ff",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 16,
+     "itemSize": "{200, 432}",
+     "screenshots": [
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-shot1.jpg",
+       "accessibilityText": "Edit mode"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-shot2.jpg",
+       "accessibilityText": "Big Connectivity"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-shot3.jpg",
+       "accessibilityText": "Big Music player"
+      }
+     ]
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**The iOS 26 Control Center for iOS 16.** Liquid glass controls, a real edit mode and pages, all inside Apple's own Control Center.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Edit mode",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Tap **+** at the top to edit: controls glow instead of wiggle.\n- **Hold and drag** any control anywhere on a 4 \u00d7 7 grid, gaps allowed.\n- **Resize** with the corner handle, remove with the **\u2212** badge.\n- **Add a Control** sheet, including extra copies of Connectivity and Music.\n- **Layout presets**: save layouts and switch between them.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Pages",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Up to **6 pages**, each its own 4 \u00d7 7 grid. Swipe up and down to snap between them.\n- Page icons on the right: tap one, or slide along them to jump.\n- Add a page while editing; empty pages remove themselves.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Big layouts",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- **Connectivity** at 2\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77 with labeled cards (Wi-Fi network, AirDrop, Cellular, Bluetooth, Hotspot).\n- **Music** at 2\u00d72, 4\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77: artwork, scrubber, love, volume and AirPlay.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "And more",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Liquid glass music module with artwork and a round AirPlay button\n- Colored slider icons with bounce, jelly buttons\n- **Slide to power off** from the power button at the top\n- Controls drop in one by one when Control Center opens\n- Settings > Control Center redesigned like iOS 18, with **Reset Control Center**",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "1.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Compatibility",
+     "text": "iOS 15 \u2013 16, rootless and rootful"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "First official release: edit mode, pages, big layouts, presets, opening animation and the new Control Center settings page.",
+     "useSpacing": true
+    }
+   ]
+  }
+ ]
+}

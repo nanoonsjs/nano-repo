@@ -1,6 +1,6 @@
 Package: com.nano.control26
 Name: Control26
-Description: iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Description: The iOS 26 Control Center for iOS 16: edit mode with free placement and resizing, Add a Control, up to 6 pages, big Music and Connectivity layouts, layout presets, liquid glass music module, slide to power off, drop-in opening animation and an iOS 18 style settings page. Made by nano.
 Maintainer: nano
 Author: nano
 Section: Tweaks
@@ -9,19 +9,20 @@ Conflicts: com.user.control26
 Replaces: com.user.control26
 Provides: com.user.control26
 Architecture: iphoneos-arm
-Version: 0.4.0
-Installed-Size: 440
-Filename: debs/com.nano.control26_0.4.0_iphoneos-arm.deb
-Size: 108264
-MD5sum: 69c9ca4dc7c9cb136d73d00eea503397
-SHA1: c04ecd8f00f4c15e6cb36bc57e1970bc7d04277c
-SHA256: d9b2e1613ef1a9e7c9e59af4de32c6fdd5b2ed3b9e7ccf0c8f19bc780ece20ae
+Version: 1.0
+Installed-Size: 1052
+Filename: debs/com.nano.control26_1.0_iphoneos-arm.deb
+Size: 479470
+MD5sum: 38d5256fc2d9b99e88dafd1f6ad2d565
+SHA1: 3b50af572ce53f067e84328102292165ea6b424c
+SHA256: 840ce652a6513999d9aecf197b9dc870a65a961d23c8954caf93fafd30ef0cde
 Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793366655
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793767235
 
 Package: com.nano.control26
 Name: Control26
-Description: iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
+Description: The iOS 26 Control Center for iOS 16: edit mode with free placement and resizing, Add a Control, up to 6 pages, big Music and Connectivity layouts, layout presets, liquid glass music module, slide to power off, drop-in opening animation and an iOS 18 style settings page. Made by nano.
 Maintainer: nano
 Author: nano
 Section: Tweaks
@@ -30,15 +31,16 @@ Conflicts: com.user.control26
 Replaces: com.user.control26
 Provides: com.user.control26
 Architecture: iphoneos-arm64
-Version: 0.4.0
-Installed-Size: 440
-Filename: debs/com.nano.control26_0.4.0_iphoneos-arm64.deb
-Size: 108372
-MD5sum: d7c54adedfd81e64d8ecbc85526275fd
-SHA1: 48be815c787ac30148396c79f94406eae9ca79d3
-SHA256: 269c81f57e1d771d6dc6b4e273554bd25e7a366f60a809b96a48e9e923b4b478
+Version: 1.0
+Installed-Size: 1052
+Filename: debs/com.nano.control26_1.0_iphoneos-arm64.deb
+Size: 479468
+MD5sum: 489e2459a78240cf14cfe6e97cd41d84
+SHA1: faf8eb419eef38b20a2c88be3547a99906f7de4d
+SHA256: 89e43463f6a6a2e6a2c7e5a6cf436c807625f4602b53fad90281e612664340a6
 Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793366655
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793767235
 
 Package: com.nano.messages26
 Name: Messages26
