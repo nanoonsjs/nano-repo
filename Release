@@ -1,18 +1,18 @@
 Origin: nano
-Label: nano
+Label: nano repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: Tweaks by nano
+Description: iOS 26 style tweaks for iOS 15 and 16 by nano
 MD5Sum:
- 2e4520d71220f7329b5e3a5b98faf7ff 7929 Packages
- c8973eb1bbd96f80a12feb2c54415751 1905 Packages.gz
- 95c62cabb308647515c1d32a7ca93271 2149 Packages.bz2
- 10d4758ad63c73516ef4467a4ef92a27 1876 Packages.xz
+ dcd0310b9dfe35428b79d7ca4c3f8f08 8589 Packages
+ 6f8d9e74984539887b2439089f1e8e8b 1964 Packages.gz
+ 25d360e0eb4c43b6183c14c9468a9d64 2210 Packages.bz2
+ 553137f772938c12b75f1e7cbd23cbab 1924 Packages.xz
 SHA256:
- a0d7354dd820a9b4adc221bcd6925bc38d07e013643e6ec176ddcb6813d68d02 7929 Packages
- 8a92dddcdcce4dc079c3a9dabe5b9510ccc4e2d2e4b614a99e479e090f293d9e 1905 Packages.gz
- bd0af587c0fa100cbf42d8466e5a1dc5666bfdb98e06992694eedd4a7ad88183 2149 Packages.bz2
- 2917271b1344af378e38e3f607e4e509af3d55d42202f332388763a703440749 1876 Packages.xz
+ b1c987fff8100dd5f848785cda88c67dac5e709a9d0aba8b52cf67ae1f230760 8589 Packages
+ c92afda4efb193c75817c9932ed73ac8b6bffc03043c8eea74e0765c6a36749e 1964 Packages.gz
+ e347309973857d495bebb46eb27cd18eba329292a6dc3afd7cd15e7a66adcda6 2210 Packages.bz2
+ d54690d64e7bd181b8e85a4c9dce5f57f30fd7f0fc3b67051eb1ffda7720fdbb 1924 Packages.xz

@@ -1,30 +1,68 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>nano's repo</title>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>nano repo</title>
+<meta name="description" content="iOS 26 style tweaks for iOS 15 and 16 by nano: Control26, Messages26, MusicPill, Photos26.">
+<link rel="apple-touch-icon" href="CydiaIcon.png"><link rel="icon" href="CydiaIcon.png">
+<meta name="theme-color" content="#0a0a0c">
 <style>
-:root{--bg:#0b0b0d;--card:#18181b;--text:#f4f4f5;--muted:#a1a1aa;--pink:#fa3d5f}
-body{margin:0;background:var(--bg);color:var(--text);font:16px/1.5 -apple-system,system-ui,sans-serif;padding:32px 16px}
-main{max-width:560px;margin:0 auto}
-h1{font-size:34px;margin:0 0 4px}p{color:var(--muted);margin:0 0 24px}
-.card{background:var(--card);border-radius:22px;padding:20px;margin-bottom:16px}
-.card h2{margin:0 0 6px;font-size:20px}
-a.btn{display:block;text-align:center;background:var(--pink);color:#fff;text-decoration:none;font-weight:600;border-radius:999px;padding:12px;margin-top:10px}
-a.btn.alt{background:#2a2a2e}
-code{background:#26262a;padding:2px 6px;border-radius:6px;word-break:break-all}
+:root{--bg:#0a0a0c;--card:rgba(255,255,255,.06);--rim:rgba(255,255,255,.12);--text:#f5f5f7;--muted:#a1a1a6;--gold:#e9d6b8}
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(1200px 600px at 50% -200px,#3a3127 0%,transparent 70%),var(--bg);color:var(--text);
+  font:16px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif;padding:max(28px,env(safe-area-inset-top)) 16px 48px;-webkit-font-smoothing:antialiased}
+main{max-width:620px;margin:0 auto}
+.hero{text-align:center;padding:12px 0 8px}
+.hero img{width:112px;height:112px;border-radius:26px;box-shadow:0 12px 40px rgba(233,214,184,.25),0 0 0 1px var(--rim)}
+.hero h1{font-size:36px;letter-spacing:-.02em;margin:16px 0 2px}
+.hero p{color:var(--muted);margin:0 auto 22px;max-width:420px}
+.add{display:flex;gap:10px;flex-wrap:wrap;justify-content:center}
+.btn{flex:1 1 180px;display:block;text-align:center;text-decoration:none;font-weight:600;border-radius:999px;padding:13px 18px;
+  background:linear-gradient(180deg,#f3e6d0,#cdb48d);color:#1b1610;box-shadow:inset 0 1px 0 rgba(255,255,255,.6)}
+.btn.alt{background:var(--card);color:var(--text);border:1px solid var(--rim);box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.url{margin:14px 0 30px;text-align:center;color:var(--muted);font-size:14px}
+.url code{background:var(--card);border:1px solid var(--rim);padding:3px 8px;border-radius:8px;color:var(--text);word-break:break-all;user-select:all}
+h2.sec{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 4px 10px}
+.tw{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--rim);border-radius:24px;overflow:hidden;margin-bottom:16px;
+  box-shadow:inset 0 1px 0 rgba(255,255,255,.08)}
+.tw .hd{display:block;width:100%;aspect-ratio:3/1;object-fit:cover;background:#111}
+.tw .row{display:flex;gap:14px;align-items:center;padding:14px 16px 16px}
+.tw .ic{width:56px;height:56px;border-radius:14px;flex:none;box-shadow:0 0 0 1px var(--rim)}
+.tw h3{margin:0;font-size:18px}
+.tw p{margin:2px 0 0;color:var(--muted);font-size:14px;line-height:1.4}
+.tw .get{margin-left:auto;flex:none;font-size:14px;font-weight:600;color:var(--gold);background:rgba(233,214,184,.12);border-radius:999px;padding:6px 14px}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:28px}
 </style></head><body><main>
-<h1>nano's repo</h1>
-<p>Tweaks by nano. Rootless (Dopamine, palera1n) and rootful.</p>
-<div class="card"><h2>Add this repo</h2>
-<a class="btn" href="sileo://source/https://nanoonsjs.github.io/nano-repo/">Add to Sileo</a>
-<a class="btn alt" href="zbra://sources/add/https://nanoonsjs.github.io/nano-repo/">Add to Zebra</a>
-<p style="margin:12px 0 0">Or add <code>https://nanoonsjs.github.io/nano-repo/</code> by hand.</p></div>
-<div class="card" style="text-align:center"><img src="CydiaIcon.png" width="96" height="96" style="border-radius:22px" alt=""></div>
-<div class="card"><h2>Messages26</h2>
-<p style="margin:0">Messages, iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs, chat backgrounds and bubble colors. Optional extras: Face ID chat lock, contact frames, 3D reactions, keyword effects, live read time, spelling fix, saved messages and reminders.</p></div>
-<div class="card"><h2>MusicPill</h2>
-<p style="margin:0">Apple Music, iOS 26 style: glass now-playing pill that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, animated covers in the player. iOS 15 &ndash; 16, iPhone 8 and newer.</p></div>
-<div class="card"><h2>Control26</h2>
-<p style="margin:0">iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly.</p></div>
-<div class="card"><h2>Photos26</h2>
-<p style="margin:0">iOS 26 style Photos viewer: liquid glass buttons and a glass video player. Replaces PhotosGlass.</p></div>
+<section class="hero">
+  <img src="CydiaIcon.png" alt="nano">
+  <h1>nano repo</h1>
+  <p>iOS 26 style tweaks for iOS 15 and 16. Rootless (Dopamine, palera1n) and rootful.</p>
+  <div class="add">
+    <a class="btn" href="sileo://source/https://nanoonsjs.github.io/nano-repo/">Add to Sileo</a>
+    <a class="btn alt" href="zbra://sources/add/https://nanoonsjs.github.io/nano-repo/">Add to Zebra</a>
+  </div>
+  <div class="url">or add <code>https://nanoonsjs.github.io/nano-repo/</code></div>
+</section>
+
+<h2 class="sec">Tweaks</h2>
+<a class="tw" href="sileo://package/com.nano.control26">
+  <img class="hd" src="depictions/img/control26-header.jpg" alt="">
+  <div class="row"><img class="ic" src="icons/com.nano.control26.png" alt="">
+    <div><h3>Control26</h3><p>The iOS 26 Control Center: edit mode, resizing, pages, big Music and Connectivity.</p></div>
+    <span class="get">GET</span></div></a>
+<a class="tw" href="sileo://package/com.nano.messages26">
+  <img class="hd" src="depictions/img/messages26-header4.jpg" alt="">
+  <div class="row"><img class="ic" src="icons/com.nano.messages26.png" alt="">
+    <div><h3>Messages26</h3><p>Liquid glass Messages: search pill, new contact page, chat backgrounds and more.</p></div>
+    <span class="get">GET</span></div></a>
+<a class="tw" href="sileo://package/com.nano.musicpill">
+  <img class="hd" src="depictions/img/musicpill-header2.jpg" alt="">
+  <div class="row"><img class="ic" src="icons/com.nano.musicpill.png" alt="">
+    <div><h3>MusicPill</h3><p>The iOS 26 Apple Music look: floating now playing pill, new artist pages.</p></div>
+    <span class="get">GET</span></div></a>
+<a class="tw" href="sileo://package/com.nano.photos26">
+  <img class="hd" src="depictions/img/photos26-header.jpg" alt="">
+  <div class="row"><img class="ic" src="icons/com.nano.photos26.png" alt="">
+    <div><h3>Photos26</h3><p>Liquid glass Photos: glass viewer, video player and iOS 26 select mode.</p></div>
+    <span class="get">GET</span></div></a>
+
+<footer>Made by nano · tested on iPhone 13 Pro Max, iOS 16</footer>
 </main></body></html>

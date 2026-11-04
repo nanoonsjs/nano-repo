@@ -1,0 +1,31 @@
+{
+ "class": "FeaturedBannersView",
+ "itemSize": "{300, 100}",
+ "itemCornerRadius": 14,
+ "banners": [
+  {
+   "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg",
+   "title": "Control26",
+   "package": "com.nano.control26",
+   "hideShadow": true
+  },
+  {
+   "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg",
+   "title": "Messages26",
+   "package": "com.nano.messages26",
+   "hideShadow": true
+  },
+  {
+   "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg",
+   "title": "MusicPill",
+   "package": "com.nano.musicpill",
+   "hideShadow": true
+  },
+  {
+   "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/photos26-header.jpg",
+   "title": "Photos26",
+   "package": "com.nano.photos26",
+   "hideShadow": true
+  }
+ ]
+}

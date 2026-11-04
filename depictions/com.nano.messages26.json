@@ -96,6 +96,41 @@
      "class": "DepictionTableTextView",
      "title": "Compatibility",
      "text": "iOS 16, rootless and rootful"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "More from nano",
+     "useBoldText": true,
+     "useBottomMargin": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Control26 \u2014 The iOS 26 Control Center",
+     "action": "sileo://package/com.nano.control26",
+     "openExternal": false
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "MusicPill \u2014 The iOS 26 Apple Music look",
+     "action": "sileo://package/com.nano.musicpill",
+     "openExternal": false
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Photos26 \u2014 The iOS 26 Photos experience",
+     "action": "sileo://package/com.nano.photos26",
+     "openExternal": false
+    },
+    {
+     "class": "DepictionLabelView",
+     "text": "Made by nano \u00b7 iPhone 13 Pro Max tested",
+     "alignment": 1,
+     "fontSize": 13,
+     "textColor": "#8e8e93",
+     "margins": "{12, 16}"
     }
    ]
   },

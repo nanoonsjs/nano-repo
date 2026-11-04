@@ -18,6 +18,7 @@ SHA1: 507f8096acd5d005b912eedb838f06b4bea43548
 SHA256: 7adf98d052f9d99f0262bca0ab4339362db5cbd1204ef4aa8921d3ffd51a51be
 Depiction: https://nanoonsjs.github.io/nano-repo/
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793767235
 
 Package: com.nano.control26
@@ -40,6 +41,7 @@ SHA1: fd6227c7efe5ee3adc21c7b6cf82a63c5fc63d98
 SHA256: 80db14ccff6760f12e4db53d4fd51a0f9f8489277b7b9620041d4907dd1b0049
 Depiction: https://nanoonsjs.github.io/nano-repo/
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793767235
 
 Package: com.nano.messages26
@@ -58,6 +60,7 @@ Size: 318774
 MD5sum: e6be5a3b426c715b73a743de2cf50b70
 SHA1: 99923897aa76a1075e4654086aa78ac0bd921800
 SHA256: 80ecad1a2f7690c6b0f7d8bc55448e05977f732f9032402d7427fcf5ea7c4c1a
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
 Package: com.nano.messages26
@@ -76,6 +79,7 @@ Size: 318644
 MD5sum: 07f213846441cf8fed3612908e163776
 SHA1: 60a1695d4e4a5d4157741025dd051230bccb156f
 SHA256: 09b9c2cf56a808b0b98e6e3fc066d64993d235db07f49d13e75c350a8d13fba9
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
 Package: com.nano.musicpill
@@ -98,6 +102,7 @@ SHA1: 97b044a0d18e492f1b1df5f0bf6fe654485acb16
 SHA256: b44fe1e3917721f0a3bb8dae7f1e9dfc72e91b4fd5661fcf9d7d36374d6e42a2
 Depiction: https://nanoonsjs.github.io/nano-repo/
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png?v=1793804251
 
 Package: com.nano.musicpill
@@ -120,6 +125,7 @@ SHA1: 35a21fb908dced0617ae634733b88d3f0e7d1eb1
 SHA256: a42e1b974b48c1d9b3ece78d7e9b34a616189f7b3c584d36f2f48b644231c160
 Depiction: https://nanoonsjs.github.io/nano-repo/
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.musicpill.png?v=1793804251
 
 Package: com.nano.photos26
@@ -142,6 +148,7 @@ SHA1: eb832ef5371c18c693bf36c619ca3114813168d2
 SHA256: fb905705f6927fd07cd5e17cf11d4af1b31cfb46523fe79c51ac2250cd1f8e94
 Depiction: https://nanoonsjs.github.io/nano-repo/
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/photos26-header.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png?v=1793810829
 
 Package: com.nano.photos26
@@ -164,4 +171,5 @@ SHA1: e07dbd36189892a58b58ea6d777328015b243794
 SHA256: b07912d0b01f915bda5c9c704d746d2ce03cb1f4807786d0c421f65729ae33bf
 Depiction: https://nanoonsjs.github.io/nano-repo/
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/photos26-header.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png?v=1793810829
