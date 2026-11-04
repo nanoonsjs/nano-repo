@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.0.1"
+     "text": "1.0.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Music sliders no longer flicker, Wi-Fi / Bluetooth arrows on the big Connectivity open their settings",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.0.1",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Expanded connectivity (hold Wi-Fi) rebuilt as iOS 26 glass cards: Airplane/Hotspot pills, Wi-Fi/AirDrop/Cellular/Bluetooth tiles.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.8",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Previous/play/next animate on the spring engine (press sink, release pop, arrow fling + ghost, play/pause morph). Expanded connectivity: Cellular Data icon -> iOS 26 signal bars, and a debug map of it.",
      "useSpacing": true
     },
     {
