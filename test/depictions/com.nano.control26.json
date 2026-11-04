@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.0.2"
+     "text": "1.0.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "No more freeze when jumping pages, progress bar no longer flashes full while sliding, 4x2 player buttons centered",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.0.2",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Live signal bars, no outer glass behind the cards, Wi-Fi/Bluetooth arrows open their lists, white icons when off, Airplane take-off.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.9",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Expanded connectivity (hold Wi-Fi) rebuilt as iOS 26 glass cards: Airplane/Hotspot pills, Wi-Fi/AirDrop/Cellular/Bluetooth tiles.",
      "useSpacing": true
     },
     {
