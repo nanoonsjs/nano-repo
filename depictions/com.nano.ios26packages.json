@@ -1,0 +1,115 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#a970ff",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/ios26packages-header.jpg",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionScreenshotsView",
+     "itemCornerRadius": 14,
+     "itemSize": "{300, 100}",
+     "screenshots": [
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg",
+       "accessibilityText": "Control26"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg",
+       "accessibilityText": "Messages26"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg",
+       "accessibilityText": "MusicPill"
+      },
+      {
+       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/photos26-header.jpg",
+       "accessibilityText": "Photos26"
+      }
+     ]
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Every nano iOS 26 tweak in one tap.** Installing this gets you the whole set, and each one keeps updating on its own.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "What's included",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Control26 \u2014 The iOS 26 Control Center",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Messages26 \u2014 The iOS 26 Messages experience",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "MusicPill \u2014 The iOS 26 Apple Music look",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Photos26 \u2014 The iOS 26 Photos experience",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Each tweak has its own settings in the Settings app, so you can turn off anything you don't want.\n\nRemoving this package doesn't remove the tweaks; remove them one by one if you want them gone.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Help & Support",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Report a Bug",
+     "action": "mailto:batmangamingghh@gmail.com?subject=iOS%2026%20Packages%20bug%20report",
+     "openExternal": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Support nano on Cash App \ud83d\udcb8",
+     "action": "https://cash.app/$naniishotl",
+     "openExternal": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "1.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Compatibility",
+     "text": "iOS 15 \u2013 16, rootless and rootful"
+    }
+   ]
+  }
+ ]
+}

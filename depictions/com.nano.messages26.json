@@ -133,6 +133,11 @@
     },
     {
      "class": "DepictionTableButtonView",
+     "title": "iOS 26 Packages \u2014 get all of them at once",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
      "title": "Control26 \u2014 The iOS 26 Control Center",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
     },

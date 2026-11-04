@@ -44,6 +44,44 @@ SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.contro
 Header: https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793767235
 
+Package: com.nano.ios26packages
+Name: iOS 26 Packages
+Version: 1.0
+Architecture: iphoneos-arm
+Description: All of nano's iOS 26 style tweaks in one install: Control26, Messages26, MusicPill and Photos26. Remove this package any time; the tweaks stay until you remove them too.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: com.nano.control26 (>= 1.1), com.nano.messages26 (>= 1.2), com.nano.musicpill (>= 1.2.71), com.nano.photos26
+Filename: debs/com.nano.ios26packages_1.0_iphoneos-arm.deb
+Size: 828
+MD5sum: a8df8a9e232259cfb5eced468469d2d7
+SHA1: ed1252b64d96e79f5db75006720f4702c4fe1601
+SHA256: dcafad02356dcd43690eb36c7730ddd4068f0a429d0fab46fd6b903765c67beb
+Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/ios26packages-header.jpg
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.ios26packages.png?v=1793814036
+
+Package: com.nano.ios26packages
+Name: iOS 26 Packages
+Version: 1.0
+Architecture: iphoneos-arm64
+Description: All of nano's iOS 26 style tweaks in one install: Control26, Messages26, MusicPill and Photos26. Remove this package any time; the tweaks stay until you remove them too.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: com.nano.control26 (>= 1.1), com.nano.messages26 (>= 1.2), com.nano.musicpill (>= 1.2.71), com.nano.photos26
+Filename: debs/com.nano.ios26packages_1.0_iphoneos-arm64.deb
+Size: 832
+MD5sum: 01dfd6abe2d38fdedece6f7556157d36
+SHA1: 7cb48f3e0250a232d7e074f27ae3d742b7e2d879
+SHA256: d0a8002a6a20d2fdf365c744325da43172d44a5f4f52e1e9c8524dcc62e46c34
+Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/ios26packages-header.jpg
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.ios26packages.png?v=1793814036
+
 Package: com.nano.messages26
 Name: Messages26
 Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.

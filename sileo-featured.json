@@ -4,6 +4,12 @@
  "itemCornerRadius": 14,
  "banners": [
   {
+   "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/ios26packages-header.jpg",
+   "title": "iOS 26 Packages",
+   "package": "com.nano.ios26packages",
+   "hideShadow": true
+  },
+  {
    "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg",
    "title": "Control26",
    "package": "com.nano.control26",
