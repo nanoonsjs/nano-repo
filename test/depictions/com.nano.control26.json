@@ -1,0 +1,336 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#fa3d5f",
+ "headerImage": "",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "iOS 26 style Control Center: music module with artwork and round AirPlay, colored slider icons, slider bounce and jelly. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano."
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "0.5.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Repo",
+     "text": "nano (test)"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.5.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "IOS 18/26 edit mode: glass + and power buttons at the top, + opens editing (wiggle, resize handles, 4 x 8 grid of empty spots, remove badges, Add a Control sheet), slide to power off",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Transport animations run on the icon's layer only (no giant icon flash), Control Center's module press-dim is switched off while a music button is held, play/pause: old icon bursts out, new grows in.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "IOS 26 transport animations: light circle while held, next / previous arrows roll over by one, play / pause shrinks to a dot and grows the new icon. No haptic on pause.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Smoother glide; expanded player hides Apple's route buttons by position (works when the route shows a Bluetooth speaker icon), AirPlay capsule anchored to the volume slider under the controls; star next to back on the lock screen player too.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "IOS 26 slider feel: the fill glides toward the finger every frame (smoothed, ~0.1s) instead of snapping, and a flick carries on a bit before easing to a stop.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Volume tracks the finger 1:1 too, Control Center's scroll waits for any slider drag (no more stalls on fast / slow drags), Auto-Brightness check off the main thread (no open lag), cards appear 10% faster.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Subtle fade-and-settle when expanded cards appear, music text a bit smaller, Auto-Brightness switched off (setting \"Stop Auto-Brightness\").",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Tap anywhere on the brightness / volume capsule to open it, no icon inside the expanded slider, Dark Mode / Night Shift / True Tone left as Apple's own round buttons (cards are only for connectivity).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Expanded cards show instantly (no rise-in, styled on layout), Dark Mode / Night Shift / True Tone get real icons and taps that reach Apple (gesture fallback), artwork shrinks when paused and springs up when playing, \"Not Playing\" 10% smaller, tap the brightness / volume icon to open the module.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.2.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "IOS 26 tiles (square, brighter glass rim, up/down chevron after the status), menu probing for Wi-Fi/Bluetooth lists.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.2.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Wi-Fi/Bluetooth arrows expand Apple's nested module, rounder bars, sliders settle back slowly (~0.5s) with no bounce.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.2.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Live signal bars, no outer glass behind the cards, Wi-Fi/Bluetooth arrows open their lists, white icons when off, Airplane take-off.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.9",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Expanded connectivity (hold Wi-Fi) rebuilt as iOS 26 glass cards: Airplane/Hotspot pills, Wi-Fi/AirDrop/Cellular/Bluetooth tiles.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.8",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Previous/play/next animate on the spring engine (press sink, release pop, arrow fling + ghost, play/pause morph). Expanded connectivity: Cellular Data icon -> iOS 26 signal bars, and a debug map of it.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Star uses Music's Love command (21) and can un-love (IsNegative); loved state read from the command's active flag. Instant song changes via MediaRemote notifications, artwork slides in the skip direction, swoosh/morph animations on previous/play/next, no haptic on skips, smaller AirPlay icons.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Spring physics (per screen refresh) for the jelly buttons and slider stretch, favorite star only for Apple Music + burst animation, smaller AirPlay capsule tucked under the volume slider, debug shows Music's supported commands so the favorite command can be confirmed.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Every view hidden in the music module is tracked and restored when it switches between small and expanded (fixes missing back button and the doubled AirPlay icons). Expanded player gets an \"AirPlay\" capsule under the volume slider and a favorite star left of the play controls.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Own previous/play/next (Apple's group scales itself, so it couldn't be moved), slider icons turn white when the fill is below them, spring-back carries finger speed, \"jelly\" round buttons.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Small AirPlay icon searched in the module's container too; transport row moved as a group (down + tighter); brightness updates with no animation for exact 1:1 tracking; the whole slider shell stretches.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Real AirPlay picker in the round button (AVRoutePickerView) and the small original fully hidden; Apple's gray slider icons fully hidden; transport row found reliably and placed like iOS 26; brightness slider tracks your finger directly (1:1, every touch update).",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Song info + artwork from MediaRemote (\"Not Playing\" when idle), round AirPlay finds Apple's button by position too, transport buttons pulled together near the bottom, smoother stretch / spring / icon changes. left-aligned. Built as an overlay; Apple's play buttons stay as-is. (kept hidden by setAlpha hooks) and a transform during the bounce. on screen, wrapped in @try.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    }
+   ]
+  }
+ ]
+}
