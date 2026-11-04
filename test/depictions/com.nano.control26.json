@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6.3"
+     "text": "0.6.4"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.6.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Controls drop in one by one when Control Center opens (iOS 26), Settings > Control Center redesigned like iOS 18 (Customize card with animated phone, Access Within Apps, Reset Control Center)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.6.3",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Own previous/play/next (Apple's group scales itself, so it couldn't be moved), slider icons turn white when the fill is below them, spring-back carries finger speed, \"jelly\" round buttons.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.3",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Small AirPlay icon searched in the module's container too; transport row moved as a group (down + tighter); brightness updates with no animation for exact 1:1 tracking; the whole slider shell stretches.",
      "useSpacing": true
     },
     {

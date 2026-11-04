@@ -10,31 +10,14 @@ Replaces: com.user.control26
 Provides: com.user.control26
 Icon: file:///var/jb/usr/share/Control26/icon.png
 Architecture: iphoneos-arm64
-Version: 0.6.3
-Installed-Size: 684
-Filename: debs/com.nano.control26_0.6.3_iphoneos-arm64.deb
-Size: 174802
-MD5sum: 43b6dbfa4f3261ae8b01b5cf0fe8d675
-SHA1: 45c4d76fe092df31eb7f3ddb7ac6bd11d73ff52b
-SHA256: 61b7d93ae73e852ca2b288624ed88594a36b74274335e6064ab0a196269cfa9e
+Version: 0.6.4
+Installed-Size: 768
+Filename: debs/com.nano.control26_0.6.4_iphoneos-arm64.deb
+Size: 186158
+MD5sum: ce43fa38c20f22f5028cd081995646bf
+SHA1: 90d5cda16ec81942a87450812dea5ba5e99e7a3c
+SHA256: 454133e93470cb94bc9a40e5bf6aa59078d9b1a06f7cb8a15f2305ed02034357
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
-
-Package: com.nano.instaglass
-Name: InstaGlass
-Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 0.3.1
-Installed-Size: 208
-Filename: debs/com.nano.instaglass_0.3.1_iphoneos-arm64.deb
-Size: 22078
-MD5sum: 9d2f35bf8747f0ed0a13ffff25a2121c
-SHA1: 442bd3f266389726b8ad31f93cc9040a06d23f60
-SHA256: e467caf1c6b128d4867933ba74f553035c2c759ab2b73a4cfaf44d885565262b
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
 
 Package: com.nano.messages26
 Name: Messages26
@@ -47,10 +30,10 @@ Architecture: iphoneos-arm64
 Version: 1.1
 Installed-Size: 1056
 Filename: debs/com.nano.messages26_1.1_iphoneos-arm64.deb
-Size: 238368
-MD5sum: 4e1e531f746a50903b32b735dbb28658
-SHA1: ee5e4e8697056a0d27968ef05cf5b4050b22c6b7
-SHA256: c7bfbb07f711a86ca883d05ebf0ca35da8b5ff6e72263ddd2b9ccce467cfa85c
+Size: 236816
+MD5sum: ab1dc697e1efa5a109ee409c4092d5c1
+SHA1: 602c457d179007f310122a46323fc599d8d999ad
+SHA256: f7f9aee641a526301fb6477a6db2b6b4cc5cc07ccdf246a21229317debdf1089
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.messages26
@@ -64,11 +47,28 @@ Architecture: iphoneos-arm64e
 Version: 1.1
 Installed-Size: 1056
 Filename: debs/com.nano.messages26_1.1_iphoneos-arm64e.deb
-Size: 237816
-MD5sum: a36a1b6de29ced6d37959b41a046f5da
-SHA1: 49afc80e69f1242b6c7a4fd95c0cf32d67cf8df4
-SHA256: 7dede92b102862dcaea8440e06e72d8b0ccaa3fad922593442d7053b467e4e3f
+Size: 236726
+MD5sum: 7728d3d6e8c60558c26c95700871fb8d
+SHA1: 4800f1fe476aef28a3aa4bcd3ea320f45e7b62f6
+SHA256: bb986a182d9ca191c6f4ec6b1e1b46ff76a874550b80f3f32f34c102dc774be9
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
+
+Package: com.nano.instaglass
+Name: InstaGlass
+Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate
+Architecture: iphoneos-arm64
+Version: 0.3.1
+Installed-Size: 208
+Filename: debs/com.nano.instaglass_0.3.1_iphoneos-arm64.deb
+Size: 22076
+MD5sum: 44588080b005583096bd92b60dc965fb
+SHA1: a4484ebbc9b10473d9bfb247c4183df867ea34e7
+SHA256: d2ae52e22fa7712a64f45574ef08201539239d29b2ce4fcb8cb9dc958a34a053
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
 
 Package: com.nano.musicpill
 Name: MusicPill
@@ -85,8 +85,8 @@ Architecture: iphoneos-arm64
 Version: 1.2.71
 Installed-Size: 936
 Filename: debs/com.nano.musicpill_1.2.71_iphoneos-arm64.deb
-Size: 261486
-MD5sum: 791126fced877b9663df8ce9eb44010c
-SHA1: de7ea7d17c2e950293dff35eca3173e33c98b552
-SHA256: c2877114fc707382df9cbc63ee51580c0600a743a4bb7ac1a4be9d979c186019
+Size: 261130
+MD5sum: 064e9f1b69d922fbbab48b33b0f1c774
+SHA1: f644a7af0ef1f87c84ae02d970fcfdbe4bf2ae28
+SHA256: e6ce81f19f59b1442b72def7322dab8d20ac26d2dfb5012d431d6a1348a49855
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
