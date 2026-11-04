@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6.2"
+     "text": "0.6.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.6.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Moving controls works again in edit mode, copies of Connectivity / Music for other pages (Add a Control), Control Center stops scrolling into removed pages",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.6.2",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Small AirPlay icon searched in the module's container too; transport row moved as a group (down + tighter); brightness updates with no animation for exact 1:1 tracking; the whole slider shell stretches.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.1.2",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Real AirPlay picker in the round button (AVRoutePickerView) and the small original fully hidden; Apple's gray slider icons fully hidden; transport row found reliably and placed like iOS 26; brightness slider tracks your finger directly (1:1, every touch update).",
      "useSpacing": true
     },
     {
