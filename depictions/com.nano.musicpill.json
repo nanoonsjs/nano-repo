@@ -66,6 +66,31 @@
      "text": "iPhone 13 Pro Max, iOS 16.1"
     },
     {
+     "class": "DepictionSeparatorView",
+     "c26help": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Help & Support",
+     "useBoldText": true,
+     "useBottomMargin": true,
+     "c26help": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Report a Bug",
+     "action": "mailto:batmangamingghh@gmail.com?subject=MusicPill%20bug%20report&body=Device%20and%20iOS%20version%3A%0AJailbreak%3A%0AWhat%20happened%3A%0A",
+     "openExternal": true,
+     "c26help": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Support nano on Cash App \ud83d\udcb8",
+     "action": "https://cash.app/$naniishotl",
+     "openExternal": true,
+     "c26help": true
+    },
+    {
      "class": "DepictionSeparatorView"
     },
     {
