@@ -1,0 +1,51 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#ff9f0a",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/photos26-header.jpg",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**The iOS 26 Photos experience, on iOS 16.** Liquid glass buttons all through the Photos app.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Features",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- **Liquid glass photo viewer**: glass top bar and buttons, with a jelly bounce\n- **Glass video player** with a precise timer\n- **Select mode like iOS 26**: glass share and trash circles that split apart, and an \"N Selected\" pill\n- **Glass Select, X and ... buttons** on the grid\n- **Years / Months / Days / All Photos** in a compact glass pill that hides as you scroll\n- **Favorite burst** animation\n- **Light & dark mode**: frosted light glass or dark glass, automatic\n- **AND MORE**",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "2.3.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Compatibility",
+     "text": "iOS 15 \u2013 16, rootless and rootful"
+    }
+   ]
+  }
+ ]
+}

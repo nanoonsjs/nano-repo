@@ -141,7 +141,8 @@ MD5sum: f6ee6b9be3862602425d656674689d84
 SHA1: eb832ef5371c18c693bf36c619ca3114813168d2
 SHA256: fb905705f6927fd07cd5e17cf11d4af1b31cfb46523fe79c51ac2250cd1f8e94
 Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png?v=1793366655
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png?v=1793810829
 
 Package: com.nano.photos26
 Name: Photos26
@@ -162,4 +163,5 @@ MD5sum: e7f3b82b6f178a20905065364275a8c6
 SHA1: e07dbd36189892a58b58ea6d777328015b243794
 SHA256: b07912d0b01f915bda5c9c704d746d2ce03cb1f4807786d0c421f65729ae33bf
 Depiction: https://nanoonsjs.github.io/nano-repo/
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png?v=1793366655
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.photos26.png?v=1793810829
