@@ -2,7 +2,7 @@
  "minVersion": "0.1",
  "class": "DepictionTabView",
  "tintColor": "#0a84ff",
- "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header3.jpg",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg",
  "tabs": [
   {
    "tabname": "Details",
@@ -43,7 +43,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- Glass message bar with a round **+** button that grows into an app menu (Photos, Camera, Apple Cash, stickers and more). Hold a row to reorder it, or hold **+** to jump straight to Photos.\n- **Search pill** at the bottom of the conversation list with a mic, and a glass new-message button beside it. While you search, it rides on top of the keyboard.\n- Glass back, Edit, name and FaceTime buttons, with a bigger contact photo and name at the top of a chat.\n- Jelly bounce on every glass button.",
+     "markdown": "- Glass message bar with a round **+** button that grows into an app menu (Photos, Camera, Apple Cash, stickers and more). Hold a row to reorder it, or hold **+** to jump straight to Photos.\n- **Search pill** at the bottom of the conversation list with a mic, and a glass new-message button beside it. While you search, it rides on top of the keyboard.\n- Glass back, Edit, name and FaceTime buttons, with a bigger contact photo and name at the top of a chat (the bigger photo has its own switch).\n- Jelly bounce on every glass button.",
      "useSpacing": true
     },
     {
@@ -85,7 +85,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.1"
+     "text": "1.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -103,6 +103,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- New **iOS 26 Contact Photo** switch: keep the glass back and FaceTime buttons with the normal small photo and name\n- Messages26 icon in its settings",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.1",

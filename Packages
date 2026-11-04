@@ -51,14 +51,14 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm
-Version: 1.1
-Installed-Size: 1056
-Filename: debs/com.nano.messages26_1.1_iphoneos-arm.deb
-Size: 237172
-MD5sum: 04aea8c504b75f1dd90eb9270e39304a
-SHA1: 6690bc3a8c1ea83957203c481a15b6f02ac7bcb2
-SHA256: ee43d737159aa0d70a3009dfec3b49496d6a1f90da58157ad5af29e0bc8f20eb
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793714297
+Version: 1.2
+Installed-Size: 1196
+Filename: debs/com.nano.messages26_1.2_iphoneos-arm.deb
+Size: 318774
+MD5sum: e6be5a3b426c715b73a743de2cf50b70
+SHA1: 99923897aa76a1075e4654086aa78ac0bd921800
+SHA256: 80ecad1a2f7690c6b0f7d8bc55448e05977f732f9032402d7427fcf5ea7c4c1a
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
 Package: com.nano.messages26
 Name: Messages26
@@ -69,14 +69,14 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm64
-Version: 1.1
-Installed-Size: 1056
-Filename: debs/com.nano.messages26_1.1_iphoneos-arm64.deb
-Size: 237770
-MD5sum: bcb83c2508492bdf78db37f2a8ddd8e4
-SHA1: fe33a585aadf0014c503088dd9311078bf85585a
-SHA256: 48f8874363b103d1b494ffe71b80597363ba8192c275c9fc00ff80afa24eefcd
-Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793714297
+Version: 1.2
+Installed-Size: 1196
+Filename: debs/com.nano.messages26_1.2_iphoneos-arm64.deb
+Size: 318644
+MD5sum: 07f213846441cf8fed3612908e163776
+SHA1: 60a1695d4e4a5d4157741025dd051230bccb156f
+SHA256: 09b9c2cf56a808b0b98e6e3fc066d64993d235db07f49d13e75c350a8d13fba9
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
 Package: com.nano.musicpill
 Name: MusicPill
