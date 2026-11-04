@@ -57,20 +57,17 @@
     {
      "class": "DepictionTableButtonView",
      "title": "Control26 \u2014 The iOS 26 Control Center",
-     "action": "sileo://package/com.nano.control26",
-     "openExternal": false
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
     },
     {
      "class": "DepictionTableButtonView",
      "title": "Messages26 \u2014 The iOS 26 Messages experience",
-     "action": "sileo://package/com.nano.messages26",
-     "openExternal": false
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
     },
     {
      "class": "DepictionTableButtonView",
      "title": "MusicPill \u2014 The iOS 26 Apple Music look",
-     "action": "sileo://package/com.nano.musicpill",
-     "openExternal": false
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
     },
     {
      "class": "DepictionLabelView",

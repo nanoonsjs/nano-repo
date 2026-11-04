@@ -1,7 +1,7 @@
 {
  "minVersion": "0.1",
  "class": "DepictionTabView",
- "tintColor": "#0a84ff",
+ "tintColor": "#30d158",
  "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg",
  "tabs": [
   {
@@ -109,20 +109,17 @@
     {
      "class": "DepictionTableButtonView",
      "title": "Control26 \u2014 The iOS 26 Control Center",
-     "action": "sileo://package/com.nano.control26",
-     "openExternal": false
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
     },
     {
      "class": "DepictionTableButtonView",
      "title": "MusicPill \u2014 The iOS 26 Apple Music look",
-     "action": "sileo://package/com.nano.musicpill",
-     "openExternal": false
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
     },
     {
      "class": "DepictionTableButtonView",
      "title": "Photos26 \u2014 The iOS 26 Photos experience",
-     "action": "sileo://package/com.nano.photos26",
-     "openExternal": false
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
     },
     {
      "class": "DepictionLabelView",
