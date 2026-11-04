@@ -65,7 +65,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- **Connectivity** at 2\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77 with labeled cards (Wi-Fi network, AirDrop, Cellular, Bluetooth, Hotspot).\n- **Music** at 2\u00d72, 4\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77: artwork, scrubber, love, volume and AirPlay.",
+     "markdown": "- **Connectivity** at 2\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77 with labeled cards (Wi-Fi network, AirDrop, Cellular, Bluetooth, Hotspot). Tap the Wi-Fi or Bluetooth arrows to open their settings.\n- **Music** at 2\u00d72, 4\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77: artwork, scrubber, love, volume and AirPlay. The sliders move like Apple's: they grow while you hold them and stretch at the ends.",
      "useSpacing": true
     },
     {
@@ -85,7 +85,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.0"
+     "text": "1.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -103,6 +103,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- Apple's AirDrop icon on the big Connectivity cards\n- Wi-Fi and Bluetooth arrows open their settings\n- Smoother page switching: hold and slide along the page icons, controls shrink while the header and buttons stay put\n- Music sliders work like Apple's (no jumping to your finger, grow while held, stretch at the ends) and no longer flicker\n- 4x2 music player buttons centered\n- Big Music / Connectivity disappear instantly when Control Center closes\n- Hold and drag works from anywhere on a control in edit mode\n- Apple's AirPlay / pause icons stay hidden after opening the player",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.0",
