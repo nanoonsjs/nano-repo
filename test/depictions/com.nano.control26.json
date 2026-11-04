@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6.0"
+     "text": "0.6.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.6.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Real pages (4 x 7 each, up to 6): add one with + by the page icons while editing, empty pages go away, swipes snap to pages, slide along the icons to zoom out and jump; connectivity / music drawn like iOS 26 (no outer box, cards; player card with star + AirPlay pill)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.6.0",
