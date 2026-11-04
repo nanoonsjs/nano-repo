@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.5.1"
+     "text": "0.5.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.5.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Grid read row by row (lines up), + / power above the status bar and hidden in landscape, glow pulse instead of wiggle, sliders can't be resized, connectivity 2x2/4x4/4x6/4x8, music 2x2/4x2/4x4/4x6/4x8, more empty rows to scroll to, safer closing, debug box can be dragged",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 0.5.1",
