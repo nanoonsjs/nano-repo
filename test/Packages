@@ -1,75 +1,3 @@
-Package: com.nano.control26
-Name: Control26
-Description: The iOS 26 Control Center for iOS 16: edit mode with free placement and resizing, Add a Control, up to 6 pages, big Music and Connectivity layouts, layout presets, liquid glass music module, slide to power off, drop-in opening animation and an iOS 18 style settings page. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.control26
-Replaces: com.user.control26
-Provides: com.user.control26
-Icon: file:///var/jb/usr/share/Control26/icon.png
-Architecture: iphoneos-arm64
-Version: 1.2
-Installed-Size: 1088
-Filename: debs/com.nano.control26_1.2_iphoneos-arm64.deb
-Size: 494676
-MD5sum: a8dc283dca80e20004cee697ec619615
-SHA1: 7696984caa60c444012c0b850fe02a78cfc81961
-SHA256: c1654729c62592d7048a545bc9a160628494e8e0e9a10f5178d93cffe3afebcb
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
-
-Package: com.nano.instaglass
-Name: InstaGlass
-Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate
-Architecture: iphoneos-arm64
-Version: 0.3.1
-Installed-Size: 208
-Filename: debs/com.nano.instaglass_0.3.1_iphoneos-arm64.deb
-Size: 22524
-MD5sum: 89adacba2d4edf6e075c448448c96832
-SHA1: 00aa724df3a60bd00229138e841c1e1fb1616f3b
-SHA256: b2c1fab185c83011b4bd6314e2d8d673fd346a4a2792b723dc21acdb59dd1a36
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
-
-Package: com.nano.messages26
-Name: Messages26
-Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64
-Version: 1.2.3
-Installed-Size: 1232
-Filename: debs/com.nano.messages26_1.2.3_iphoneos-arm64.deb
-Size: 342134
-MD5sum: ce8b13332ae0f296e077e3ef04c581a4
-SHA1: 21ec1b14b64c97350089e750cd9cb6fb603f545e
-SHA256: 26720489825d17f2cffe187df1391b4c56d550c673c481a806240c8646a422e6
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
-
-Package: com.nano.messages26
-Name: Messages26
-Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm64e
-Version: 1.2.3
-Installed-Size: 1232
-Filename: debs/com.nano.messages26_1.2.3_iphoneos-arm64e.deb
-Size: 341814
-MD5sum: aa9247349a225d1044e0459c297fcfab
-SHA1: cc965240c691d982b2bfd6fe8d61970124f74f3e
-SHA256: 67bb9a0bfbad13173eab2ab3a43df827101e26e4e89abdecbc53b1a40d069f18
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
-
 Package: com.nano.musicpill
 Name: MusicPill
 Description: Apple Music, iOS 26 style. A small glass now-playing pill (swipe to skip, scrolling title) that collapses with the tab bar, iOS 26 album, artist, search and library pages, star favorites, glass top buttons, animated album covers in the player and more. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano.
@@ -82,32 +10,11 @@ Replaces: com.user.musicpill
 Provides: com.user.musicpill
 Icon: file:///var/jb/usr/share/MusicPill/icon.png
 Architecture: iphoneos-arm64
-Version: 1.2.82
-Installed-Size: 1184
-Filename: debs/com.nano.musicpill_1.2.82_iphoneos-arm64.deb
-Size: 326714
-MD5sum: f696829b261368f89fca1785cc682f06
-SHA1: d2ab87a9fb07c3999ebeafb0fb65c287b94f7299
-SHA256: ff59e595fbfd2bad448b4be93728bb75f66640e59a567e82a037288227c7924a
+Version: 1.2.83
+Installed-Size: 1216
+Filename: debs/com.nano.musicpill_1.2.83_iphoneos-arm64.deb
+Size: 336158
+MD5sum: 31f912de787576873ad1cb784e6490c6
+SHA1: 765a204aaeeadec4ea582718026096b08ff9c6de
+SHA256: 7681e6a9972f7c9e16cd6852fb9e5bfdb6ce6d5c1aad1c69d0a8721e0ff42030
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
-
-Package: com.nano.photos26
-Name: Photos26
-Description: iOS 26 style Photos viewer: liquid glass buttons and a glass video player. For iOS 15 and 16, every iPhone (A11 and newer). Tested on iPhone 13 Pro Max, iOS 16. Made by nano. (Replaces PhotosGlass.)
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Conflicts: com.user.photos26
-Replaces: com.user.photos26
-Provides: com.user.photos26
-Icon: file:///var/jb/usr/share/Photos26/icon.png
-Architecture: iphoneos-arm64
-Version: 2.5.4
-Installed-Size: 432
-Filename: debs/com.nano.photos26_2.5.4_iphoneos-arm64.deb
-Size: 116292
-MD5sum: 5d7b282c3c63c746bcf48a870b06f99b
-SHA1: 4727fe7636a259471d8bc0ccf7076ff2402702c1
-SHA256: b711ed4b6532a828ab6f8d7438a95d6c94beb0837f9e96c14f5e99d0da897eae
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.photos26.json
