@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.1"
+     "text": "1.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Smaller iPhones (4.7\"/5.5\"): pages fit the screen, Connectivity fits (short names), page icons fit the margin; Style setting (iOS 26 / iOS 18), Module Shapes (round controls, capsule sliders) without other tweaks, clean card corners, - badges sit on the control edge, star no longer covers back on the music player",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.1",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Expanded cards show instantly (no rise-in, styled on layout), Dark Mode / Night Shift / True Tone get real icons and taps that reach Apple (gesture fallback), artwork shrinks when paused and springs up when playing, \"Not Playing\" 10% smaller, tap the brightness / volume icon to open the module.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.2.2",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "IOS 26 tiles (square, brighter glass rim, up/down chevron after the status), menu probing for Wi-Fi/Bluetooth lists.",
      "useSpacing": true
     },
     {
