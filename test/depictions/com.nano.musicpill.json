@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.76"
+     "text": "1.2.77"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.77",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Hold the Pill (glass menu: Up Next, Sleep Timer, Music Insights), Waveform on the cover, jelly bounce on the pill swipe",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.71",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Pressing a circle next to the minimized pill joins them with a smooth liquid neck (curved in at the middle, iOS 26), following the bounce live",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.41",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Another app playing (YouTube...) no longer shows in the pill, and the pill buttons control Music; squishing a circle into the pill joins them with a liquid glass neck that snaps when you let go",
      "useSpacing": true
     },
     {
