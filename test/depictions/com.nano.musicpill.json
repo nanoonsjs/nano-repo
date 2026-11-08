@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.79"
+     "text": "1.2.80"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.80",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Menu grows from the pill with the glass filling in and melts back into it, glass touch light on the pill, pill 4.5pt lower, Up Next row removed",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.79",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "The liquid neck fades out when you let go instead of vanishing",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.44",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "A pressed circle no longer slides over the pill; it stops just short and the liquid neck joins them seamlessly",
      "useSpacing": true
     },
     {
