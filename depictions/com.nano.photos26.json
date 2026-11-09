@@ -33,7 +33,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "2.3.0"
+     "text": "2.6.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -106,6 +106,26 @@
      "fontSize": 13,
      "textColor": "#8e8e93",
      "margins": "{12, 16}"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.6.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **LiquidAss compatibility** switch\n- **Redesigned settings** with a header and sections\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
     }
    ]
   }

@@ -85,7 +85,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.1"
+     "text": "1.2.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -165,6 +165,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **iOS 18 / iOS 26 look** switch, plus round module shapes\n- Works on smaller iPhones: no more overlapping connectivity controls or stray lines\n- **Redesigned settings** with a header and sections\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.1",

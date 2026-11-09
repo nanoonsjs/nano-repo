@@ -54,7 +54,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- Glass rim on message bubbles, with a deeper blue for your iMessages.\n- **Swipe right** on any message to reply. Tapback reactions slide along with the message.",
+     "markdown": "- Glass rim on message bubbles, with a deeper blue for your iMessages.\n- **Swipe right** on any message to reply. Tapback reactions slide along with the message.\n- **iOS 26 photo & video viewer** with a glass video player, speed and loop.\n- **Bigger audio messages** that play out loud on the speaker.",
      "useSpacing": true
     },
     {
@@ -85,7 +85,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2"
+     "text": "1.3.8"
     },
     {
      "class": "DepictionTableTextView",
@@ -165,6 +165,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.3.8",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **iOS 26 photo & video viewer**: glass X, a big play button with 10 second skips, a glass time bar, a glass ... panel with playback speed and loop, and glass save and share buttons\n- **Bigger audio messages** with a big play button and a long waveform\n- **Audio messages play on the speaker** instead of the earpiece (still switches to the earpiece at your ear)\n- **FaceTime button** opens one glass panel with FaceTime Audio and Video\n- **Contact page**: plain black background and round press highlights on call, video and mail\n- **Redesigned settings** with a header and a live preview phone that follows your switches\n- **Springy Messages26 sheet**: rows spring in and react when you flip them\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2",
