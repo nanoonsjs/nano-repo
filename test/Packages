@@ -19,24 +19,6 @@ SHA1: 357d75a98f772c35de0ec0b573a9b968f2043f2c
 SHA256: 55b58fad6b967d98b93514a7ca020f58789212901129d4995e4ca7e8559a0ea2
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
 
-Package: com.nano.fasthaptic
-Name: FastHaptic
-Description: Faster Haptic Touch everywhere: long-press menus open quicker in every app, on the Home Screen and in Control Center. Pick how fast in Settings. For iOS 15 and 16. Made by nano.
-Maintainer: nano
-Author: nano
-Section: Tweaks
-Depends: mobilesubstrate, preferenceloader
-Icon: file:///var/jb/usr/share/FastHaptic/icon.png
-Architecture: iphoneos-arm64
-Version: 2.1
-Installed-Size: 368
-Filename: debs/com.nano.fasthaptic_2.1_iphoneos-arm64.deb
-Size: 172560
-MD5sum: bbd46ba2826f3597059097756cb7dc0a
-SHA1: 06e03c6b825f93e8cc09cef360ea3dbd8b63f5c7
-SHA256: 350770fe487c0fdf99841addea47529e0d36eeec49c2a6b74d46b9e11d1b99de
-SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.fasthaptic.json
-
 Package: com.nano.instaglass
 Name: InstaGlass
 Description: Turns Instagram's floating tab bar into an iOS 26 liquid glass pill, with a glass selection bubble that stretches like liquid when you switch tabs. Made by nano.
