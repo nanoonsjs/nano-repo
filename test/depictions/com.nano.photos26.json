@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "2.6.1"
+     "text": "2.7"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 2.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "New icon (settings and header)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 2.6.1",
