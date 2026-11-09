@@ -47,7 +47,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **Swipe the title to skip**, hand-tracked with a bounce\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **Light & dark mode**: frosted or dark glass, automatic\n- **AND MORE**",
+     "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Dynamic Pill**: swipe up on the pill and it grows into Insights, like the Dynamic Island\n- **Insights**: your listening this week, streak, top artist and songs, all time\n- **Sleep Timer** that morphs right out of the island\n- **Landscape player**: turn your phone sideways for a full-screen player with timed lyrics\n- **Jelly swipe to skip** on the pill\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **AND MORE**",
      "useSpacing": true
     },
     {
@@ -56,7 +56,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.71"
+     "text": "1.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -141,6 +141,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Dynamic Pill**: swipe up on the now playing pill and it grows into Insights, just like the Dynamic Island. Tap outside and it shrinks back into the pill\n- **Insights**: your listening this week, day by day, your streak, top artist, top songs and all time\n- **Sleep Timer** now morphs out of the island (15, 30, 45 min, 1 hour or end of song)\n- **Landscape player**: turn your phone sideways for a full-screen player with the cover, controls, AirPlay and colors from the album. No status bar, home bar along the bottom\n- **Lyrics in landscape**: timed lyrics that light up line by line, tap a line to jump there\n- **Jelly swipe to skip**: the pill stretches and bounces as you swipe\n- **Live waveform** on the cover while music plays (optional)\n- **Tap to open the player**\n- **Smaller pill on the Library tab** (optional)\n- **Still background** in landscape when Increase Contrast is on\n- **Redesigned settings** with a new icon and an animated Dynamic Pill demo\n- **LiquidAss compatibility** switch\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.71",
