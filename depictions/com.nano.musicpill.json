@@ -47,7 +47,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Dynamic Pill**: swipe up on the pill and it grows into Insights, like the Dynamic Island\n- **Insights**: your listening this week, streak, top artist and songs, all time\n- **Sleep Timer** that morphs right out of the island\n- **Landscape player**: turn your phone sideways for a full-screen player with timed lyrics\n- **Jelly swipe to skip** on the pill\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **AND MORE**",
+     "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Dynamic Pill**: swipe up on the pill and it grows into Insights, like the Dynamic Island\n- **Insights**: your listening this week, streak, top artist and songs, all time\n- **Sleep Timer** that morphs right out of the island\n- **Landscape player**: turn your phone sideways for a full-screen player with timed lyrics\n- **Jelly swipe to skip** on the pill\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **Hold to peek**: cover, live lyric line and time\n- **Song change splash** and **share cards** for your stories\n- **AND MORE**",
      "useSpacing": true
     },
     {
@@ -56,7 +56,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.3"
+     "text": "1.4"
     },
     {
      "class": "DepictionTableTextView",
@@ -141,6 +141,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Hold to peek**: hold the pill and it grows a little with the cover, the lyric being sung and the time\n- **Song change splash** (optional): a new song makes the pill grow with the big cover, tap it to open the player\n- **Share card**: share a story-size picture of what you're playing from Insights\n- **Smoother Dynamic Pill**: opens from your finger, closes like the Dynamic Island, pull it down to close\n- **Landscape**: animated icons, a volume that reacts, centered lyrics, a Favorite star and Up Next\n- **Big Cover With Lyrics** (optional): big cover next to the lyrics, tap to pause, swipe to change songs\n- **Hide Home Bar in Landscape** (optional)\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.3",
