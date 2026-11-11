@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.4.11"
+     "text": "1.5.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,34 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.5.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Dynamic Pill opens as liquid out of the drop and closes back into a drop that's sucked into the pill; Back button in Sleep Timer",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Settings demo shows the liquid pull",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.4.11",
@@ -423,34 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Landscape v2 - Music really turns (home bar along the bottom, no status bar), lyrics button, glass control capsule, normal AirPlay icon, still background with Increase Contrast",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.82",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Landscape player (turn the phone: cover left, glass controls right, colors from the cover, Insights in two columns), smaller pill on Library",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.81",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Jelly bounce after a swipe always shows (flicks on a skip, wobbles home); no second star after lyrics / queue",
      "useSpacing": true
     },
     {
