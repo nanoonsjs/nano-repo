@@ -7,12 +7,12 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: iOS 26 style tweaks for iOS 15 and 16 by nano
 MD5Sum:
- 0626def31ffe0bb3fb9f034c836f60c9 11547 Packages
- 3e053182c237c29abf434d5ae9bc74ad 2483 Packages.gz
- d84428cd1fcb65d43a15005f8dd2491e 2810 Packages.bz2
- 5d2ad9d3d74497dae23e44537f6f0ce5 2384 Packages.xz
+ 22eb8c117a5ad10bea62eccbc35e148b 11547 Packages
+ 1e4bf9a4dd77accff16b00abf81bfcfa 2484 Packages.gz
+ 54f2cd1cfeabdbb05fdb939103e538fb 2812 Packages.bz2
+ 9912d3396802dc8b95c26640e8e50c25 2380 Packages.xz
 SHA256:
- 7986ad8d84bd3805143d46ee639d850dba3d6ce68b7ffd7ae0848f8279932f44 11547 Packages
- 86ae59d4fbdf0360ada4547117405453a5678939debcc77f77cdfa05065f309d 2483 Packages.gz
- 2c5ff562a7a6ab619b4fd3298b20c2bdd2db489c8af072d32b8630a3c532a2c9 2810 Packages.bz2
- 3abfd686fa7f4c4a1b09a6566e211538b6d44bd12e65008414c4b14615b85ac1 2384 Packages.xz
+ 3dcf01bedd69582b4118d9650ca7b95bbf49e7c3abba4bc6bff691d9ef259652 11547 Packages
+ 7cf881701187fd91ac4d40b89441daa821f9da9fb1250dd7375a77be87a87079 2484 Packages.gz
+ 3b63dc7e88bac296e105987f5c451777bf8739d6a26908adabdd9ee1d010b9b8 2812 Packages.bz2
+ e43eb0300a1b1fac119cd1b882fce86a18adc1ad2bebba2f0b79451890131372 2380 Packages.xz
