@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.4.3"
+     "text": "1.4.4"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The pill's spot is locked (no more resizing by itself, no grow while scrolling); Dynamic Pill closes on one real spring every frame; smoother player close",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.4.3",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "The old About stays gone (also when Music swaps its views) and the page end no longer jumps; the About sheet keeps the artist name",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.68",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The old About no longer flickers back while scrolling (re-hidden right after Music lays out the page); no gray panel behind Similar Artists",
      "useSpacing": true
     },
     {

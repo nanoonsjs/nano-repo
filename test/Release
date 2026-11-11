@@ -7,12 +7,12 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: Test builds by nano
 MD5Sum:
- 1a3d6f92360a18f2f8e55deca059c561 5134 Packages
- 5dd4b0036cd1883dffbfdb4bea9f7b26 1754 Packages.gz
- 0377c10e352d57eb135f1da222bba5f5 1946 Packages.bz2
- 791ed6f4f08ae9a40f6f3d10cd515f30 1776 Packages.xz
+ 942bdb68560661c7490795b0f3e3c5fb 5134 Packages
+ d9e585bf9500ff360dfb6f6a81db4113 1756 Packages.gz
+ 335011c4db0ead54b1520a132e1bad6d 1946 Packages.bz2
+ 745ea2bb563a613771defc004e2f92c3 1780 Packages.xz
 SHA256:
- 8fb7be4b6631191787c647ffd4c2210c40de8c323de3ec4e9ad86fa5ee2c131f 5134 Packages
- d2ea3a5dd32c5cc274630db45077ca9f5c6e4ad5781d856d49f00da661c8409e 1754 Packages.gz
- 8f15a086a3c213a6aff660b54da7b8c6dbfcca88d4953570b4114ec8e8b69f87 1946 Packages.bz2
- 56f32afdb88ae4109b6b74cf6e853b05fbeb9e7c4bcef12a2ac2145d6ed49af9 1776 Packages.xz
+ 9cc1fb0c342e49c4d7043e700f149da72501a81e057d431d4402c4b842c97cc9 5134 Packages
+ 36e4b5d2dd0546af83ff5c0ccc2481a25bc62bf4ccb6d91af46126f04237ee4a 1756 Packages.gz
+ f0d99cb95f6540a27b803cbc7111ccdc30a72d2d888e76dd392ed18151047234 1946 Packages.bz2
+ 3feea0fa763aa5f013c11f74dc895683d2037593cf60004ba57a24a048069e8f 1780 Packages.xz
