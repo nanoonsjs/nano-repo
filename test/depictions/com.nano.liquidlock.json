@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Liquid glass Face ID for notched iPhones: a glass Face ID face appears where the lock is, curls into a liquid glass ring that spins and pops when you unlock, and shakes like jelly when it does not recognize you. Made by nano."
+     "markdown": "Animated Face ID for notched iPhones: the lock turns into a Face ID face that looks around while it scans (and on the passcode screen), then curls into a glowing blue ring that spins and bursts when you unlock, and shakes like jelly when it does not recognize you. Made by nano."
     },
     {
      "class": "DepictionSeparatorView"
@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.3"
+     "text": "0.4"
     },
     {
      "class": "DepictionTableTextView",
