@@ -56,7 +56,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.5"
+     "text": "1.5.5"
     },
     {
      "class": "DepictionTableTextView",
@@ -141,6 +141,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.5.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Liquid Dynamic Pill**: it opens as liquid poured up out of the drop, and closes back into a drop that gets sucked into the pill with a bounce\n- **Faster and smoother**: quicker pull, open and close, with smoother drawing while it moves\n- **Sleep Timer Back button**: go back to Insights right from the Sleep Timer\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.5",
