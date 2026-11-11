@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "A liquid Face ID unlock animation on the Lock Screen: the padlock melts into a glass drop while scanning, bursts open when you unlock, and shakes like jelly when it doesn't recognize you. Made by nano."
+     "markdown": "Dynamic Island style Face ID for notched iPhones: a black island drips out of the notch with a Face ID scan, turns into a check when you unlock and pulls back in, and shakes like jelly when it does not recognize you. Made by nano."
     },
     {
      "class": "DepictionSeparatorView"
@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.1"
+     "text": "0.2"
     },
     {
      "class": "DepictionTableTextView",
