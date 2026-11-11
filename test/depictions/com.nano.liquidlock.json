@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Dynamic Island style Face ID for notched iPhones: a black island drips out of the notch with a Face ID scan, turns into a check when you unlock and pulls back in, and shakes like jelly when it does not recognize you. Made by nano."
+     "markdown": "Liquid glass Face ID for notched iPhones: a glass Face ID face appears where the lock is, curls into a liquid glass ring that spins and pops when you unlock, and shakes like jelly when it does not recognize you. Made by nano."
     },
     {
      "class": "DepictionSeparatorView"
@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.2"
+     "text": "0.3"
     },
     {
      "class": "DepictionTableTextView",
