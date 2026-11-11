@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "3.2"
+     "text": "3.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -38,13 +38,13 @@
    "views": [
     {
      "class": "DepictionSubheaderView",
-     "title": "Version 3.2",
+     "title": "Version 3.3",
      "useBoldText": true,
      "useBottomMargin": false
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Info as an iOS 26 glass sheet (camera, lens, settings, file, map); swipe up opens it too",
+     "markdown": "The info sheet from 3.2 is gone again (Apple's info panel as before)",
      "useSpacing": true
     },
     {
