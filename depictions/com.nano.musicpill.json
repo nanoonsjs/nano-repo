@@ -56,7 +56,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.5.5"
+     "text": "1.6"
     },
     {
      "class": "DepictionTableTextView",
@@ -141,6 +141,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Better liquid drop**: a slight pull makes a soft bump that rises into a drop on a pinching neck, and it quivers while you hold it\n- **Pull anywhere**: the drop comes up wherever your finger is along the pill's top edge\n- **Height limit**: pull past it and the Dynamic Pill opens right away; let go after a good pull and it opens too; a small pull goes back in\n- **Matching close**: the Dynamic Pill closes back into the same drop, right where you pulled it from\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.5.5",
