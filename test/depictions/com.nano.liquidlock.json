@@ -10,7 +10,7 @@
    "views": [
     {
      "class": "DepictionMarkdownView",
-     "markdown": "Animated Face ID for notched iPhones: the lock turns into a Face ID face that looks around while it scans (and on the passcode screen), then curls into a glowing blue ring that spins and bursts when you unlock, and shakes like jelly when it does not recognize you. Made by nano."
+     "markdown": "Animated Face ID for notched iPhones. The lock turns into a Face ID face that waits for you while Face ID looks (and on the passcode screen), curls into a spinning ring with a check when you unlock, and shakes like jelly when it does not recognize you. Made by nano."
     },
     {
      "class": "DepictionSeparatorView"
@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.6"
+     "text": "1.0"
     },
     {
      "class": "DepictionTableTextView",
