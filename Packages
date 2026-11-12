@@ -82,6 +82,46 @@ SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26p
 Header: https://nanoonsjs.github.io/nano-repo/depictions/img/ios26packages-header.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.ios26packages.png?v=1793814036
 
+Package: com.nano.liquidlock
+Name: LiquidLock
+Description: Animated Face ID for notched iPhones. The lock turns into a Face ID face that waits for you while Face ID looks (and on the passcode screen), curls into a spinning ring with a check when you unlock, and shakes like jelly when it does not recognize you. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Version: 1.0
+Installed-Size: 552
+Filename: debs/com.nano.liquidlock_1.0_iphoneos-arm.deb
+Size: 343304
+MD5sum: 157978c4574405ecf020a6d347be517d
+SHA1: bbb1f496cbe29583427f097b0ee01780a6b74293
+SHA256: a1cd8013f1f8306b78b217f465a333a79a33caa6bcd09a53f07c6ddc2febd126
+Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/liquidlock-header.jpg
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.liquidlock.png?v=1794453503
+
+Package: com.nano.liquidlock
+Name: LiquidLock
+Description: Animated Face ID for notched iPhones. The lock turns into a Face ID face that waits for you while Face ID looks (and on the passcode screen), curls into a spinning ring with a check when you unlock, and shakes like jelly when it does not recognize you. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm64
+Version: 1.0
+Installed-Size: 552
+Filename: debs/com.nano.liquidlock_1.0_iphoneos-arm64.deb
+Size: 343406
+MD5sum: e80d99ec33636f736537c415246a4718
+SHA1: 947dfec7b42e6ba736219415f3cc03f0ac2dffa5
+SHA256: 68e72df017bc9de8e6500963fb08e475b4c73551be51dd6cd48ded00ca13091b
+Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/liquidlock-header.jpg
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.liquidlock.png?v=1794453503
+
 Package: com.nano.messages26
 Name: Messages26
 Description: Messages redesigned in the iOS 26 Liquid Glass style: glass message bar and + app menu, bottom search pill, glass bubbles with swipe to reply, a new contact page with tabs and chat backgrounds, bubble colors, contact frames, Face ID chat lock and more.

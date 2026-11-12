@@ -43,7 +43,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- Tap **+** at the top to edit: controls glow instead of wiggle.\n- **Hold and drag** any control anywhere on a 4 \u00d7 7 grid, gaps allowed.\n- **Resize** with the corner handle, remove with the **\u2212** badge.\n- **Add a Control** sheet, including extra copies of Connectivity and Music.\n- **Layout presets**: save layouts and switch between them.",
+     "markdown": "- Tap **+** at the top to edit: controls glow instead of wiggle.\n- **Hold and drag** any control anywhere on a 4 × 7 grid, gaps allowed.\n- **Resize** with the corner handle, remove with the **−** badge.\n- **Add a Control** sheet, including extra copies of Connectivity and Music.\n- **Layout presets**: save layouts and switch between them.",
      "useSpacing": true
     },
     {
@@ -54,7 +54,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- Up to **6 pages**, each its own 4 \u00d7 7 grid. Swipe up and down to snap between them.\n- Page icons on the right: tap one, or slide along them to jump.\n- Add a page while editing; empty pages remove themselves.",
+     "markdown": "- Up to **6 pages**, each its own 4 × 7 grid. Swipe up and down to snap between them.\n- Page icons on the right: tap one, or slide along them to jump.\n- Add a page while editing; empty pages remove themselves.",
      "useSpacing": true
     },
     {
@@ -65,7 +65,7 @@
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "- **Connectivity** at 2\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77 with labeled cards (Wi-Fi network, AirDrop, Cellular, Bluetooth, Hotspot). Tap the Wi-Fi or Bluetooth arrows to open their settings.\n- **Music** at 2\u00d72, 4\u00d72, 4\u00d74, 4\u00d76 or 4\u00d77: artwork, scrubber, love, volume and AirPlay. The sliders move like Apple's: they grow while you hold them and stretch at the ends.",
+     "markdown": "- **Connectivity** at 2×2, 4×4, 4×6 or 4×7 with labeled cards (Wi-Fi network, AirDrop, Cellular, Bluetooth, Hotspot). Tap the Wi-Fi or Bluetooth arrows to open their settings.\n- **Music** at 2×2, 4×2, 4×4, 4×6 or 4×7: artwork, scrubber, love, volume and AirPlay. The sliders move like Apple's: they grow while you hold them and stretch at the ends.",
      "useSpacing": true
     },
     {
@@ -95,7 +95,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Compatibility",
-     "text": "iOS 15 \u2013 16, rootless and rootful"
+     "text": "iOS 15 – 16, rootless and rootful"
     },
     {
      "class": "DepictionSeparatorView",
@@ -117,7 +117,7 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Support nano on Cash App \ud83d\udcb8",
+     "title": "Support nano on Cash App 💸",
      "action": "https://cash.app/$naniishotl",
      "openExternal": true,
      "c26help": true
@@ -133,27 +133,32 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "iOS 26 Packages \u2014 get all of them at once",
+     "title": "iOS 26 Packages — get all of them at once",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Messages26 \u2014 The iOS 26 Messages experience",
+     "title": "Messages26 — The iOS 26 Messages experience",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "MusicPill \u2014 The iOS 26 Apple Music look",
+     "title": "MusicPill — The iOS 26 Apple Music look",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Photos26 \u2014 The iOS 26 Photos experience",
+     "title": "Photos26 — The iOS 26 Photos experience",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
     },
     {
+     "class": "DepictionTableButtonView",
+     "title": "LiquidLock — Animated Face ID",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
+    },
+    {
      "class": "DepictionLabelView",
-     "text": "Made by nano \u00b7 iPhone 13 Pro Max tested",
+     "text": "Made by nano · iPhone 13 Pro Max tested",
      "alignment": 1,
      "fontSize": 13,
      "textColor": "#8e8e93",

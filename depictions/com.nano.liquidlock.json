@@ -1,0 +1,142 @@
+{
+ "minVersion": "0.1",
+ "class": "DepictionTabView",
+ "tintColor": "#a57bff",
+ "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/liquidlock-header.jpg",
+ "tabs": [
+  {
+   "tabname": "Details",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "**Animated Face ID, redefined.** On iPhones with a notch, the lock turns into a Face ID face that waits for you, then unlocks with a spinning ring and a check.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Features",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "- **A face that waits for you**: while Face ID looks, the lock becomes a Face ID face that looks at you, blinks slowly and glances around\n- **Passcode screen too**: the lock up top is the animated face the whole time\n- **Unlock like Apple, smoother**: the brackets curl into a ring that spins, then a check draws itself and the open lock pops back\n- **No match**: the face shakes like jelly\n- **Matches your wallpaper**: same color as Apple's lock, light or dark\n- **Live preview in Settings**, haptics switch\n- **Notched iPhones only** (X to 14); turns itself off on Dynamic Island iPhones",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Version",
+     "text": "1.0"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Developer",
+     "text": "nano"
+    },
+    {
+     "class": "DepictionTableTextView",
+     "title": "Compatibility",
+     "text": "iOS 15 – 16, notched iPhones, rootless and rootful"
+    },
+    {
+     "class": "DepictionSeparatorView",
+     "c26help": true
+    },
+    {
+     "class": "DepictionSeparatorView",
+     "c26help": true
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Help & Support",
+     "useBoldText": true,
+     "useBottomMargin": true,
+     "c26help": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Report a Bug",
+     "action": "mailto:batmangamingghh@gmail.com?subject=LiquidLock%20bug%20report&body=Device%20and%20iOS%20version%3A%0AJailbreak%3A%0AWhat%20happened%3A%0A",
+     "openExternal": true,
+     "c26help": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Support nano on Cash App 💸",
+     "action": "https://cash.app/$naniishotl",
+     "openExternal": true,
+     "c26help": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "More from nano",
+     "useBoldText": true,
+     "useBottomMargin": true
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "iOS 26 Packages — get all of them at once",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Control26 — The iOS 26 Control Center",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Messages26 — The iOS 26 Messages experience",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "MusicPill — The iOS 26 Apple Music look",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
+    },
+    {
+     "class": "DepictionTableButtonView",
+     "title": "Photos26 — The iOS 26 Photos experience",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
+    },
+    {
+     "class": "DepictionLabelView",
+     "text": "Made by nano · iPhone 13 Pro Max tested",
+     "alignment": 1,
+     "fontSize": 13,
+     "textColor": "#8e8e93",
+     "margins": "{12, 16}"
+    }
+   ]
+  },
+  {
+   "tabname": "Changelog",
+   "class": "DepictionStackView",
+   "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- First release\n- Animated Face ID face that waits for you, on the Lock Screen and the passcode screen\n- Spinning ring and check when you unlock, jelly shake when it doesn't recognize you\n- Live preview in Settings"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    }
+   ]
+  }
+ ]
+}

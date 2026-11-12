@@ -114,6 +114,11 @@
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
     },
     {
+     "class": "DepictionTableButtonView",
+     "title": "LiquidLock — Animated Face ID",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
+    },
+    {
      "class": "DepictionLabelView",
      "text": "Made by nano · iPhone 13 Pro Max tested",
      "alignment": 1,

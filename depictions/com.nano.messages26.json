@@ -117,7 +117,7 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Support nano on Cash App \ud83d\udcb8",
+     "title": "Support nano on Cash App 💸",
      "action": "https://cash.app/$naniishotl",
      "openExternal": true,
      "c26help": true
@@ -133,27 +133,32 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "iOS 26 Packages \u2014 get all of them at once",
+     "title": "iOS 26 Packages — get all of them at once",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Control26 \u2014 The iOS 26 Control Center",
+     "title": "Control26 — The iOS 26 Control Center",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "MusicPill \u2014 The iOS 26 Apple Music look",
+     "title": "MusicPill — The iOS 26 Apple Music look",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Photos26 \u2014 The iOS 26 Photos experience",
+     "title": "Photos26 — The iOS 26 Photos experience",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
     },
     {
+     "class": "DepictionTableButtonView",
+     "title": "LiquidLock — Animated Face ID",
+     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
+    },
+    {
      "class": "DepictionLabelView",
-     "text": "Made by nano \u00b7 iPhone 13 Pro Max tested",
+     "text": "Made by nano · iPhone 13 Pro Max tested",
      "alignment": 1,
      "fontSize": 13,
      "textColor": "#8e8e93",

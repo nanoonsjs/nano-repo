@@ -10,6 +10,12 @@
    "hideShadow": true
   },
   {
+   "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/liquidlock-header.jpg",
+   "title": "LiquidLock",
+   "package": "com.nano.liquidlock",
+   "hideShadow": true
+  },
+  {
    "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg",
    "title": "Control26",
    "package": "com.nano.control26",
