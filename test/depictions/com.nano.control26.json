@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.7"
+     "text": "1.2.8"
     },
     {
      "class": "DepictionTableTextView",
@@ -38,13 +38,13 @@
    "views": [
     {
      "class": "DepictionSubheaderView",
-     "title": "Version 1.2.7",
+     "title": "Version 1.2.8",
      "useBoldText": true,
      "useBottomMargin": false
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "AirPlay opens as a card like the Lock Screen's (the panel shrinks to just the song and the speakers, the list pops in)",
+     "markdown": "New AirPlay card (song on top, speakers as rounded rows, the playing one white with a check), opened by every AirPlay button on the Lock Screen and in Control Center; grows out of the button",
      "useSpacing": true
     },
     {
