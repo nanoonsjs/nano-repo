@@ -47,7 +47,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "3.3"
+     "text": "3.4.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -57,7 +57,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Compatibility",
-     "text": "iOS 15 – 16, rootless and rootful"
+     "text": "iOS 15 \u2013 16, rootless and rootful"
     },
     {
      "class": "DepictionSeparatorView",
@@ -79,7 +79,7 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Support nano on Cash App 💸",
+     "title": "Support nano on Cash App \ud83d\udcb8",
      "action": "https://cash.app/$naniishotl",
      "openExternal": true,
      "c26help": true
@@ -95,32 +95,32 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "iOS 26 Packages — get all of them at once",
+     "title": "iOS 26 Packages \u2014 get all of them at once",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Control26 — The iOS 26 Control Center",
+     "title": "Control26 \u2014 The iOS 26 Control Center",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Messages26 — The iOS 26 Messages experience",
+     "title": "Messages26 \u2014 The iOS 26 Messages experience",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "MusicPill — The iOS 26 Apple Music look",
+     "title": "MusicPill \u2014 The iOS 26 Apple Music look",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.musicpill.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "LiquidLock — Animated Face ID",
+     "title": "LiquidLock \u2014 Animated Face ID",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
     },
     {
      "class": "DepictionLabelView",
-     "text": "Made by nano · iPhone 13 Pro Max tested",
+     "text": "Made by nano \u00b7 iPhone 13 Pro Max tested",
      "alignment": 1,
      "fontSize": 13,
      "textColor": "#8e8e93",
@@ -132,6 +132,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 3.4.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Liquid glass**: the bottom bar and its buttons are now real liquid glass that bends the light at its edges\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 2.7",

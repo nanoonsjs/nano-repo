@@ -56,7 +56,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.6"
+     "text": "1.7.1"
     },
     {
      "class": "DepictionTableTextView",
@@ -66,7 +66,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Compatibility",
-     "text": "iOS 15 – 16, rootless and rootful"
+     "text": "iOS 15 \u2013 16, rootless and rootful"
     },
     {
      "class": "DepictionTableTextView",
@@ -93,7 +93,7 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Support nano on Cash App 💸",
+     "title": "Support nano on Cash App \ud83d\udcb8",
      "action": "https://cash.app/$naniishotl",
      "openExternal": true,
      "c26help": true
@@ -109,32 +109,32 @@
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "iOS 26 Packages — get all of them at once",
+     "title": "iOS 26 Packages \u2014 get all of them at once",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Control26 — The iOS 26 Control Center",
+     "title": "Control26 \u2014 The iOS 26 Control Center",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Messages26 — The iOS 26 Messages experience",
+     "title": "Messages26 \u2014 The iOS 26 Messages experience",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "Photos26 — The iOS 26 Photos experience",
+     "title": "Photos26 \u2014 The iOS 26 Photos experience",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
     },
     {
      "class": "DepictionTableButtonView",
-     "title": "LiquidLock — Animated Face ID",
+     "title": "LiquidLock \u2014 Animated Face ID",
      "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
     },
     {
      "class": "DepictionLabelView",
-     "text": "Made by nano · iPhone 13 Pro Max tested",
+     "text": "Made by nano \u00b7 iPhone 13 Pro Max tested",
      "alignment": 1,
      "fontSize": 13,
      "textColor": "#8e8e93",
@@ -146,6 +146,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.7.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Real liquid glass**: the pill, the minimized pill and its circles are now true liquid glass that bends the light at its edges and stays smooth while scrolling\n- **Glass buttons everywhere**: the search field, X, back, Edit and top bar buttons, Up Next and pinned chips use the same glass\n- **Glass liquid drop**: the drop is one smooth piece of glass with a shiny outline; pull it far enough and it breaks off into a glass ball\n- **Lower pill**: the maximized pill sits a little lower\n- Pressing the minimized pill no longer grows a glass neck to the pill\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.6",
@@ -183,7 +197,7 @@
     {
      "class": "DepictionMarkdownView",
      "useSpacing": true,
-     "markdown": "- **Liquid pull**: pull up on the pill and a drop of liquid glass rises out of it, follows your finger and wobbles. Let go and the Dynamic Pill grows right out of the drop\n- **Dynamic Pill closing**: closes on one smooth spring, then bounces into the real pill\n- **New player close**: the player shrinks evenly into the pill and lands exactly on it\n- **Locked pill**: the pill keeps one size and spot (no more resizing after leaving Music or scrolling)\n- **Smooth Lyrics** (optional, landscape): lyrics follow every frame, glide, karaoke fill, depth, breathing ••• in breaks, and a ± timing nudge per song\n- **Song Change Splash**: shows the moment a new song plays, new bubble look when the pill is minimized, hides while paused\n- **Settings demo**: shows the liquid pull and the splash\n- Bug fixes"
+     "markdown": "- **Liquid pull**: pull up on the pill and a drop of liquid glass rises out of it, follows your finger and wobbles. Let go and the Dynamic Pill grows right out of the drop\n- **Dynamic Pill closing**: closes on one smooth spring, then bounces into the real pill\n- **New player close**: the player shrinks evenly into the pill and lands exactly on it\n- **Locked pill**: the pill keeps one size and spot (no more resizing after leaving Music or scrolling)\n- **Smooth Lyrics** (optional, landscape): lyrics follow every frame, glide, karaoke fill, depth, breathing \u2022\u2022\u2022 in breaks, and a \u00b1 timing nudge per song\n- **Song Change Splash**: shows the moment a new song plays, new bubble look when the pill is minimized, hides while paused\n- **Settings demo**: shows the liquid pull and the splash\n- Bug fixes"
     },
     {
      "class": "DepictionSeparatorView"
