@@ -37,8 +37,88 @@
    "class": "DepictionStackView",
    "views": [
     {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
      "class": "DepictionMarkdownView",
-     "markdown": "No changelog yet."
+     "markdown": "New icon, live demo in Settings",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "One face animation: he's waiting on you.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Unlocking is Apple-like (white ring spins, then a check), and the face has two animations that take turns.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Lock-sized, plain (no glass), the face also replaces the lock on the passcode screen, and unlocking turns it into a glowing blue ring that spins, wobbles and bursts into blue sparks.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "No island: the Face ID face itself, in liquid glass, where the lock is. It curls into a glass ring that spins and wobbles like liquid and pops when you unlock.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "A Dynamic Island style Face ID for notched iPhones. When Face ID starts looking, a black island drips out of the notch and grows into a rounded square with a Face ID glyph that scans; unlocking turns it into a check, then it pulls back up into the notch with a squish. No match: it shakes like jelly. Apple's own lock stays as it is (it only steps aside while the island is out). Only on iPhones with a notch: Dynamic Island iPhones already have this.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
     }
    ]
   }

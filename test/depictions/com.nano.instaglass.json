@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "0.3.2"
+     "text": "0.3.3"
     },
     {
      "class": "DepictionTableTextView",
@@ -37,8 +37,88 @@
    "class": "DepictionStackView",
    "views": [
     {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.3",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
      "class": "DepictionMarkdownView",
-     "markdown": "No changelog yet."
+     "markdown": "Glass follows the NanoGlass slider (clear to frosted)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "With LiquidAss installed, the bar is the same liquid glass as MusicPill",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.1",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Finds Instagram's tab bar (IGTabBar) again",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.3.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "No more glass on the like / comment row of posts (the tab bar is never inside a list); the bubble follows the tab you're on, also when you swipe between pages; hold the bubble, drag it to a tab and let go to open it",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.2.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Also the normal full-width tab bar (profile etc.): it becomes a floating glass pill with a glass bubble under the tab you tap",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 0.1.0",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Instagram's floating tab bar becomes a liquid glass pill (light / dark), the selected-tab bubble becomes clear glass that stretches like liquid when it slides to another tab. Debug: hold three fingers on the screen.",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
     }
    ]
   }
