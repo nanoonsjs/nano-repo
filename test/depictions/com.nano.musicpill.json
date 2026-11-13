@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.7.9"
+     "text": "1.7.10"
     },
     {
      "class": "DepictionTableTextView",
@@ -38,7 +38,7 @@
    "views": [
     {
      "class": "DepictionSubheaderView",
-     "title": "Version 1.7.9",
+     "title": "Version 1.7.10",
      "useBoldText": true,
      "useBottomMargin": false
     },
