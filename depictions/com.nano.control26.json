@@ -85,7 +85,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.5"
+     "text": "1.2.6"
     },
     {
      "class": "DepictionTableTextView",
@@ -170,6 +170,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "useSpacing": true,
+     "markdown": "- **Fixed a freeze on incoming calls**: SpringBoard no longer locks up and resprings when a call comes in\n- **RootHide support**: a native RootHide build, no converting needed\n- Bug fixes"
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.5",

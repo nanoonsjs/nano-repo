@@ -8,6 +8,29 @@ Depends: mobilesubstrate, preferenceloader
 Conflicts: com.user.control26
 Replaces: com.user.control26
 Provides: com.user.control26
+Architecture: iphoneos-arm
+Version: 1.2.6
+Installed-Size: 1104
+Filename: debs/com.nano.control26_1.2.6_iphoneos-arm.deb
+Size: 502160
+MD5sum: 45a6568403ad02516b5f865c79dbe50a
+SHA1: 57b6b11c0f90e313ff3388263c19a2f364af5e1e
+SHA256: 42753dd3bbaa219401de77e9e286cf9c1a460381313be8553494c1415d056403
+Depiction: https://nanoonsjs.github.io/nano-repo/
+SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json
+Header: https://nanoonsjs.github.io/nano-repo/depictions/img/control26-header.jpg
+Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.control26.png?v=1793767235
+
+Package: com.nano.control26
+Name: Control26
+Description: The iOS 26 Control Center for iOS 16: edit mode with free placement and resizing, Add a Control, up to 6 pages, big Music and Connectivity layouts, layout presets, liquid glass music module, slide to power off, drop-in opening animation and an iOS 18 style settings page. Made by nano.
+Maintainer: nano
+Author: nano
+Section: Tweaks
+Depends: mobilesubstrate, preferenceloader
+Conflicts: com.user.control26
+Replaces: com.user.control26
+Provides: com.user.control26
 Architecture: iphoneos-arm64
 Version: 1.2.6
 Installed-Size: 1104
