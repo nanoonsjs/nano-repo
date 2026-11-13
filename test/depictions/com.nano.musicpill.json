@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.7.3"
+     "text": "1.7.4"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.7.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The liquid drop uses the same glass settings as the pill (blur, tint, refraction, color split, shine), so it doesn't go clear while you pull; sharper refraction and a juicier neck",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.7.3",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Smooth Lyrics in landscape: every frame, glide, karaoke fill, depth + soft focus, breathing \u2022\u2022\u2022 in breaks, \u00b1 timing nudge per song",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.4",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Release (hold to peek, song splash, share card, landscape lyrics layouts, favorite, Up Next)",
      "useSpacing": true
     },
     {
