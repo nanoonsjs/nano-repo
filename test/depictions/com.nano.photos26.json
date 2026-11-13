@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "3.4.1"
+     "text": "3.4.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 3.4.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Glass is LiquidAss's own (its blur setting applies); NanoGlass switch turns it on or off",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 3.4.1",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "No gray bar backgrounds top or bottom, thumbnails always shown, slider moves relative to your drag (like Apple's), Edit found directly when the adjust button is tapped.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.0.1",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Player capsule only for videos, scrubber finds the real player (asset duration, on-screen layer), Apple's frame strip hidden while ours works, top glass fixed, smaller glass buttons. [play]  [scrubber]  [mute] glass circle behind \"...\", Edit moves to the bottom (adjust). with an empty layer mask, and our own buttons call Apple's buttons, so every action (share sheet, delete sheet, favorite...) is Apple's own. Apple's chrome (tap the photo to hide the bars).",
      "useSpacing": true
     },
     {
