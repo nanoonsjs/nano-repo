@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.1"
+     "text": "1.2.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "With LiquidAss installed, our glass buttons are the same liquid glass as MusicPill",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Tap anywhere on the brightness / volume capsule to open it, no icon inside the expanded slider, Dark Mode / Night Shift / True Tone left as Apple's own round buttons (cards are only for connectivity).",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.3.0",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Expanded cards show instantly (no rise-in, styled on layout), Dark Mode / Night Shift / True Tone get real icons and taps that reach Apple (gesture fallback), artwork shrinks when paused and springs up when playing, \"Not Playing\" 10% smaller, tap the brightness / volume icon to open the module.",
      "useSpacing": true
     },
     {
