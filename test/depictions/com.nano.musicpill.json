@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.7.15"
+     "text": "1.7.16"
     },
     {
      "class": "DepictionTableTextView",
@@ -38,111 +38,13 @@
    "views": [
     {
      "class": "DepictionSubheaderView",
-     "title": "Version 1.7.15",
+     "title": "Version 1.7.16",
      "useBoldText": true,
      "useBottomMargin": false
     },
     {
      "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop measures the real pill's glass when you start pulling (how tinted, how frosted) and copies it",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.14",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop's glass matches the pill: edge bending and rainbow edge were 3x too strong, blur was half as strong",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.13",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop is drawn with the same glass formula as the pill (edge bending, color split, tint, blur, from its settings), on the melted pill + neck + drop shape",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.12",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop follows LiquidAss: tinted there = tinted drop, clear there = clear drop (its tint and blur)",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.11",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "While you pull, the pill and drop keep the pill's glass color (no more turning darker, or milky in light mode); softer hand-over",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.10",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop is back to the 1.7.3 pull (pill, neck and drop as one piece of liquid glass), without the white border",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.8",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop is joined to the pill again (its glass flows into the pill around the neck), so it grows out of it like real liquid",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.7",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "The liquid drop is clear, sharp glass again (it had gone foggy); the pill keeps its LiquidAss glass",
+     "markdown": "Back to the 1.7.6 liquid drop (the pill keeps its own glass while you pull, no white border)",
      "useSpacing": true
     },
     {
@@ -451,6 +353,104 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "The liquid drop is one piece with the pill's glass (dark glossy, light mode too), springy and wobbly; the Dynamic Pill opens out of the drop",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.10",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The liquid drop is the pill's glass; letting go opens it, pulling high opens it",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.9",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Liquid pull-up to open the Dynamic Pill; no splash while paused",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.8",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Splash shows PAUSED / stops its wave when paused; minimized pill squishes as the splash goes back in",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Player close lands on the pill's real spot (no small/high pill for half a second); Dynamic Pill closes normally, then fades into the real pill with a bounce",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.6",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Player close rebuilt (no jump up after), Dynamic Pill fades out as it closes, Song Change Splash shows right away + new look when the pill is minimized, settings demo shows the splash",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.5",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The pill no longer shows behind the Dynamic Pill",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.4",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The pill's spot is locked (no more resizing by itself, no grow while scrolling); Dynamic Pill closes on one real spring every frame; smoother player close",
      "useSpacing": true
     },
     {
