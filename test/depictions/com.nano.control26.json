@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.2.6"
+     "text": "1.2.7"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.2.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "AirPlay opens as a card like the Lock Screen's (the panel shrinks to just the song and the speakers, the list pops in)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.2.6",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "IOS 26 transport animations: light circle while held, next / previous arrows roll over by one, play / pause shrinks to a dot and grows the new icon. No haptic on pause.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.3.5",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Smoother glide; expanded player hides Apple's route buttons by position (works when the route shows a Bluetooth speaker icon), AirPlay capsule anchored to the volume slider under the controls; star next to back on the lock screen player too.",
      "useSpacing": true
     },
     {
