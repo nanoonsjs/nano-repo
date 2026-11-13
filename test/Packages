@@ -10,13 +10,13 @@ Replaces: com.user.control26
 Provides: com.user.control26
 Icon: file:///var/jb/usr/share/Control26/icon.png
 Architecture: iphoneos-arm64
-Version: 1.2.9
-Installed-Size: 1152
-Filename: debs/com.nano.control26_1.2.9_iphoneos-arm64.deb
-Size: 510406
-MD5sum: c89132d8892e8efdc6dac8b983e3efc4
-SHA1: e7f291cf3d32d2795ada7d466f88bee8e3d23b4f
-SHA256: 308ff3ccd9a0fff9d690a54725791a8695fa18a9ae9797d41dc570be8eccb1d6
+Version: 1.2.6
+Installed-Size: 1104
+Filename: debs/com.nano.control26_1.2.6_iphoneos-arm64.deb
+Size: 502352
+MD5sum: db4a1b022dfbfa204b29f9b72c3cd2ec
+SHA1: 53c47b78b482ac12f958fa17fa3462e23823723d
+SHA256: 4d432dfa8f7b667c6e48257e92301c8529f7630ada9c175732dd64c9804493d4
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
 
 Package: com.nano.control26
@@ -31,13 +31,13 @@ Replaces: com.user.control26
 Provides: com.user.control26
 Icon: file:///var/jb/usr/share/Control26/icon.png
 Architecture: iphoneos-arm64e
-Version: 1.2.9
-Installed-Size: 1152
-Filename: debs/com.nano.control26_1.2.9_iphoneos-arm64e.deb
-Size: 510564
-MD5sum: 0accc500c2eef1aa4103211e13f8f7b9
-SHA1: c39413c9bdd1e8df809b24ab69e622b593e6ad08
-SHA256: 17ff30c64cdff6545cca7c37ae18da1f693d0c073ccd76cd7bc5c49e805aa7d6
+Version: 1.2.6
+Installed-Size: 1104
+Filename: debs/com.nano.control26_1.2.6_iphoneos-arm64e.deb
+Size: 502126
+MD5sum: 8e7c953cacf4422cf74d4fa1541b48dc
+SHA1: 2413e79b7a1a68a1ba16fcde999d3f3570093fa2
+SHA256: fc0c3d7bab6d18b81758dc861f81f1d8f20b8745e52de1f038287fcef8afe24e
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
 
 Package: com.nano.instaglass
