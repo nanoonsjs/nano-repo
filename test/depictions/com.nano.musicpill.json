@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.7.1"
+     "text": "1.7.2"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.7.2",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "The liquid drop is one piece of real liquid glass: pill, neck and drop melt together (smooth union) and bend the light along the whole shape",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.7.1",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Landscape: swipe right = next / left = back (setting to reverse), Hide Home Bar setting, no double-tap favorite through it, Favorite star, Up Next next to lyrics",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.3.8",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Landscape: gone when you go Home (no stuck view), Insights hides AirPlay / Insights buttons, even volume row, \"Big Cover With Lyrics\" (tap cover = play / pause, swipe = change song)",
      "useSpacing": true
     },
     {
