@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.4.6"
+     "text": "1.4.7"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.4.7",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "New glass icons in the + menu (Photos, Camera, Apple Cash, Stickers, Audio, Music)",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.4.6",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Contact photo found anywhere on the page and moved up with the name",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 0.18.8",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Contact page photo + name a little higher",
      "useSpacing": true
     },
     {

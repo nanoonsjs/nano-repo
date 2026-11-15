@@ -13,10 +13,10 @@ Architecture: iphoneos-arm64
 Version: 1.2.10
 Installed-Size: 1104
 Filename: debs/com.nano.control26_1.2.10_iphoneos-arm64.deb
-Size: 503770
-MD5sum: 532fbbcd037ce91c8fe496181b163184
-SHA1: 659627502be50ed7a6d7f985bf89b0d79a58faeb
-SHA256: 080513bc8a01960020bcf098dfc2efb5770e9ec7bf2eba3b9c0d0608bea0ad57
+Size: 503542
+MD5sum: f25d27a6c4b0d95550b237278ac4a689
+SHA1: 959e9889a3ac44236fa9f2aef04c333717567a6f
+SHA256: 99228acefeae4e89ac41adce1e0a203fc72c3de2386f017d6e750a410b4c41f1
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
 
 Package: com.nano.control26
@@ -34,10 +34,10 @@ Architecture: iphoneos-arm64e
 Version: 1.2.10
 Installed-Size: 1104
 Filename: debs/com.nano.control26_1.2.10_iphoneos-arm64e.deb
-Size: 503702
-MD5sum: 63f0c9c5c9a49da3f4272e35720894a3
-SHA1: 454f2a1792f964c528d86c6fc49fcdfa86b76199
-SHA256: d775f1cb718916c40a61d323d5a2d58c10354f9bf62b53ee5afaf264417aa0ab
+Size: 503998
+MD5sum: d18bdcefd8a3f02209440fd833832542
+SHA1: 7f748c53928f28a5cb74f4307a0c823ab75ef0d4
+SHA256: 8095d81a95b903b7297a63a47acc9e70c3531e1ea56249ce785f5389b698df3e
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.control26.json
 
 Package: com.nano.instaglass
@@ -51,10 +51,10 @@ Architecture: iphoneos-arm64
 Version: 0.3.5
 Installed-Size: 240
 Filename: debs/com.nano.instaglass_0.3.5_iphoneos-arm64.deb
-Size: 26100
-MD5sum: fe4e876aeb0aceb1122bfd6d3c25a8e4
-SHA1: 11d50c3fb687f6593a7470ea666ba7e3dd73708f
-SHA256: caba9befb95d4aa20c4729d8c274cb66ca1f39edf8b912c4da711239350a2fa5
+Size: 26078
+MD5sum: aa531b8d5eab495dc24b0beabb1dbba8
+SHA1: fee766c7c4cb9ff8d55ae105b28366f91686e72a
+SHA256: 464f47b812e96b52dfbf722046ba1d90cb3fae3fa341961ae966c5e97d5955c9
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.instaglass.json
 
 Package: com.nano.liquidlock
@@ -69,10 +69,10 @@ Architecture: iphoneos-arm64
 Version: 1.0
 Installed-Size: 552
 Filename: debs/com.nano.liquidlock_1.0_iphoneos-arm64.deb
-Size: 343390
-MD5sum: f6b57872fb1b54418434b16f1618154a
-SHA1: d763b16f2cea1f73a5c5b130f8902745112098fc
-SHA256: 5bb3f0c386468d9922b4748c85aec3d4f83bc724e319f17bbe73af048fc93780
+Size: 343384
+MD5sum: 6be8a97845995a5bc3d5d7d68cd0f896
+SHA1: 0956de766dc7526df18542b19edf08ef0a4c591b
+SHA256: f1314a98e0fc263bc0c130df25048f35fe651a6bf11b065cad87c9f465d80c64
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.liquidlock.json
 
 Package: com.nano.messages26
@@ -83,13 +83,13 @@ Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64
-Version: 1.4.6
-Installed-Size: 1604
-Filename: debs/com.nano.messages26_1.4.6_iphoneos-arm64.deb
-Size: 530544
-MD5sum: 042324488959e33dc90606570f8612d5
-SHA1: 65e3288b25522b940d2f54484fb6e3d7323ba15a
-SHA256: d65c3fbce7d0047d0c796e3b25ebcc730e2da986cb230941724abd5a32f8e81d
+Version: 1.4.7
+Installed-Size: 1896
+Filename: debs/com.nano.messages26_1.4.7_iphoneos-arm64.deb
+Size: 690790
+MD5sum: 81c4a67226900b883e8c5dd9cab2a251
+SHA1: 22895b79ec577ab9a78cd8b33d4e58f65ac0ab12
+SHA256: f80f5ab219019c67ab2b5ec7bd60fbb045e60e88fbdf717122b8929097598e39
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.messages26
@@ -100,13 +100,13 @@ Author: nano
 Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm64e
-Version: 1.4.6
-Installed-Size: 1604
-Filename: debs/com.nano.messages26_1.4.6_iphoneos-arm64e.deb
-Size: 529758
-MD5sum: 2ac7f518f12171c288f59d51ed2e7e75
-SHA1: 6f3ca049badfae144f80248ce0410b41995aee12
-SHA256: 1f9973175afdf9b6b4c8240ec0cdf3ea52ff180e1dd6cf2e652de3ae5fe8c218
+Version: 1.4.7
+Installed-Size: 1896
+Filename: debs/com.nano.messages26_1.4.7_iphoneos-arm64e.deb
+Size: 689956
+MD5sum: 217bb503b70b16dff2ebdd09882b7b33
+SHA1: 52bb9a4d321b4bf509b7f0ac20f56b069d856d31
+SHA256: 80e06dec77f453ca43e75f410a0bf6b8110f17bb8508fdeeadef5847774e8450
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.messages26.json
 
 Package: com.nano.musicpill
@@ -124,10 +124,10 @@ Architecture: iphoneos-arm64
 Version: 1.8.2
 Installed-Size: 1976
 Filename: debs/com.nano.musicpill_1.8.2_iphoneos-arm64.deb
-Size: 751170
-MD5sum: d0f7b84a9d4529078fba29aba407c497
-SHA1: 7527d789e65512be1c7869fafb1eb1cff54200d2
-SHA256: bd09eda4840c6bf4b8e984df596ab81823e5a60e1e725d36d400e71ceeb7939b
+Size: 750426
+MD5sum: 7be9c72744d79de8f58b08d882b78ccf
+SHA1: 5a766f6625d8bc01f25fccd1e9b80b5766fe8f48
+SHA256: 0aaa4fd9919977c73d5463d10a727d3483d9099e9d1915e4d2748323acdccaea
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.musicpill.json
 
 Package: com.nano.photos26
@@ -145,8 +145,8 @@ Architecture: iphoneos-arm64
 Version: 3.4.3
 Installed-Size: 844
 Filename: debs/com.nano.photos26_3.4.3_iphoneos-arm64.deb
-Size: 483516
-MD5sum: 6c5b3c3c20cd09a4becebf9b346cddbb
-SHA1: 56569b1863261677955fd477b5011d585f08f3d4
-SHA256: eff819e2030b085921ae3ebca24b27d1e9a9a74ba48b54a547a6e8d5270e2a28
+Size: 483336
+MD5sum: 2cc2e967932648d0efd8be88fbd63c86
+SHA1: acbac9e06a46455e7ebcb1e0582cd80e3fee5b07
+SHA256: 5f7b2556d26cd96dae05642ca6611b713d8dcb46a53424c29daf79234c2f4b42
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/test/depictions/com.nano.photos26.json
