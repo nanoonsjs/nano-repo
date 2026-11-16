@@ -14,6 +14,14 @@
           "itemSize": "{200, 432}",
           "screenshots": [
             {
+              "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-v2-insights.jpg",
+              "accessibilityText": "Conversation Insights"
+            },
+            {
+              "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-v2-chatlock.jpg",
+              "accessibilityText": "Chat Lock with Face ID"
+            },
+            {
               "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-v2-shot1.jpg",
               "accessibilityText": "Conversation list with pinned contacts"
             },
