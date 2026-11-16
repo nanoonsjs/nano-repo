@@ -18,7 +18,7 @@
     {
      "class": "DepictionTableTextView",
      "title": "Version",
-     "text": "1.7.5"
+     "text": "1.8"
     },
     {
      "class": "DepictionTableTextView",
@@ -36,6 +36,20 @@
    "tabname": "Changelog",
    "class": "DepictionStackView",
    "views": [
+    {
+     "class": "DepictionSubheaderView",
+     "title": "Version 1.8",
+     "useBoldText": true,
+     "useBottomMargin": false
+    },
+    {
+     "class": "DepictionMarkdownView",
+     "markdown": "Messages26 Pro ($2.99 once, Gumroad key, one iPhone per key): Keep Unsent Messages + Conversation Insights",
+     "useSpacing": true
+    },
+    {
+     "class": "DepictionSeparatorView"
+    },
     {
      "class": "DepictionSubheaderView",
      "title": "Version 1.7.5",
@@ -437,20 +451,6 @@
     {
      "class": "DepictionMarkdownView",
      "markdown": "Photos are photos (Live Photos too), strips behind the viewer bars hidden, reactions open the picker, FaceTime opens a glass panel, Dynamic Island in the Messages26 sheet",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.3.3",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Viewer: photos never show video controls, no bottom background, Reply / reactions are real taps on Apple's buttons, reaction icon with a burst, no drag-to-seek on the video",
      "useSpacing": true
     },
     {
