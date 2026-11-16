@@ -154,13 +154,13 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm
-Version: 1.4.3
-Installed-Size: 1508
-Filename: debs/com.nano.messages26_1.4.3_iphoneos-arm.deb
-Size: 495392
-MD5sum: f70e6161f53650b4106002e541702d79
-SHA1: fed119345bc5221a3983aea5dce6bf8222a82816
-SHA256: dc9eecf9de4887cfd00a4541f81d0f7e170dcf2ccec9cecac594155f7c1a2d1e
+Version: 2.0
+Installed-Size: 2796
+Filename: debs/com.nano.messages26_2.0_iphoneos-arm.deb
+Size: 912056
+MD5sum: 208123fdd614acd17851462800bf0e69
+SHA1: b1b262ed41c28102742088de33252be8d3793d82
+SHA256: 4c40704d6432005e3cc0e6fa1057eb69c7093f07df3bea3deaa752da4f673108
 Header: https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
@@ -173,13 +173,13 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm64
-Version: 1.4.3
-Installed-Size: 1508
-Filename: debs/com.nano.messages26_1.4.3_iphoneos-arm64.deb
-Size: 493882
-MD5sum: 0a41f458c6ec50d9203a9148972fd5c5
-SHA1: d1230c9b35de0177b8f5c806dc5363abf08a41ff
-SHA256: d6f8de7675e8779b30fd488c28afd4e5a75b64ee3624474618738474e518813a
+Version: 2.0
+Installed-Size: 2796
+Filename: debs/com.nano.messages26_2.0_iphoneos-arm64.deb
+Size: 912430
+MD5sum: 7aa7ca3a78f6c85ab651a724b6a66343
+SHA1: cc38ebd5c157cff68e73ce2cd282b633ba56781f
+SHA256: ff83f324d9e5dc003a9f646c8d1f1f866ab1507281c872ea74d78ac088c2bd7f
 Header: https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
@@ -192,13 +192,13 @@ Section: Tweaks
 Depends: mobilesubstrate, preferenceloader
 SileoDepiction: https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json
 Architecture: iphoneos-arm64e
-Version: 1.4.3
-Installed-Size: 1508
-Filename: debs/com.nano.messages26_1.4.3_iphoneos-arm64e.deb
-Size: 494186
-MD5sum: ea784a8a24b991f5c4543610046a4efc
-SHA1: 1d51329b123850b793680f3fd768566f5238a03b
-SHA256: a20096551a2cb61df63525243c0110c8b29c0545221814d2901058c27831604f
+Version: 2.0
+Installed-Size: 2796
+Filename: debs/com.nano.messages26_2.0_iphoneos-arm64e.deb
+Size: 912060
+MD5sum: df8ee21180cfca28d3284c87ae92c7a6
+SHA1: b7cd6bdd2fa20c5396aa6163ee23cf0da34d57d5
+SHA256: 7b9f6d32dd411b981390c97822bcb99de1c8fe3089fcadad9949d06a46577d5a
 Header: https://nanoonsjs.github.io/nano-repo/depictions/img/messages26-header4.jpg
 Icon: https://nanoonsjs.github.io/nano-repo/icons/com.nano.messages26.png?v=1793809350
 
