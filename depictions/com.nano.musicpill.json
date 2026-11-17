@@ -1,261 +1,275 @@
 {
- "minVersion": "0.1",
- "class": "DepictionTabView",
- "tintColor": "#fa3d5f",
- "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg",
- "tabs": [
-  {
-   "tabname": "Details",
-   "class": "DepictionStackView",
-   "views": [
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "tintColor": "#fa3d5f",
+  "headerImage": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-header2.jpg",
+  "tabs": [
     {
-     "class": "DepictionScreenshotsView",
-     "itemCornerRadius": 16,
-     "itemSize": "{200, 432}",
-     "screenshots": [
-      {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot1.jpg",
-       "accessibilityText": "iOS 26 artist page"
-      },
-      {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot2.jpg",
-       "accessibilityText": "About sheet"
-      },
-      {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot3.jpg",
-       "accessibilityText": "Now playing"
-      },
-      {
-       "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot4.jpg",
-       "accessibilityText": "Up Next queue"
-      }
-     ]
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 16,
+          "itemSize": "{200, 432}",
+          "screenshots": [
+            {
+              "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot1.jpg",
+              "accessibilityText": "iOS 26 artist page"
+            },
+            {
+              "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot2.jpg",
+              "accessibilityText": "About sheet"
+            },
+            {
+              "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot3.jpg",
+              "accessibilityText": "Now playing"
+            },
+            {
+              "url": "https://nanoonsjs.github.io/nano-repo/depictions/img/musicpill-shot4.jpg",
+              "accessibilityText": "Up Next queue"
+            }
+          ]
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "**The iOS 26 Apple Music look, on iOS 16.** Liquid glass everywhere.",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Features",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Dynamic Pill**: swipe up on the pill and it grows into Insights, like the Dynamic Island\n- **Insights**: your listening this week, streak, top artist and songs, all time\n- **Sleep Timer** that morphs right out of the island\n- **Landscape player**: turn your phone sideways for a full-screen player with timed lyrics\n- **Jelly swipe to skip** on the pill\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **Hold to peek**: cover, live lyric line and time\n- **Song change splash** and **share cards** for your stories\n- **AND MORE**",
+          "useSpacing": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Version",
+          "text": "1.9"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Developer",
+          "text": "nano"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15 – 16, rootless and rootful"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Tested on",
+          "text": "iPhone 13 Pro Max, iOS 16.1"
+        },
+        {
+          "class": "DepictionSeparatorView",
+          "c26help": true
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Help & Support",
+          "useBoldText": true,
+          "useBottomMargin": true,
+          "c26help": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Report a Bug",
+          "action": "mailto:batmangamingghh@gmail.com?subject=MusicPill%20bug%20report&body=Device%20and%20iOS%20version%3A%0AJailbreak%3A%0AWhat%20happened%3A%0A",
+          "openExternal": true,
+          "c26help": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Support nano on Cash App 💸",
+          "action": "https://cash.app/$naniishotl",
+          "openExternal": true,
+          "c26help": true
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "More from nano",
+          "useBoldText": true,
+          "useBottomMargin": true
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "iOS 26 Packages — get all of them at once",
+          "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Control26 — The iOS 26 Control Center",
+          "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Messages26 — The iOS 26 Messages experience",
+          "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Photos26 — The iOS 26 Photos experience",
+          "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "LiquidLock — Animated Face ID",
+          "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
+        },
+        {
+          "class": "DepictionLabelView",
+          "text": "Made by nano · iPhone 13 Pro Max tested",
+          "alignment": 1,
+          "fontSize": 13,
+          "textColor": "#8e8e93",
+          "margins": "{12, 16}"
+        }
+      ]
     },
     {
-     "class": "DepictionMarkdownView",
-     "markdown": "**The iOS 26 Apple Music look, on iOS 16.** Liquid glass everywhere.",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Features",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "- **Floating Now Playing pill**: a glass pill with album art, play and skip\n- **Dynamic Pill**: swipe up on the pill and it grows into Insights, like the Dynamic Island\n- **Insights**: your listening this week, streak, top artist and songs, all time\n- **Sleep Timer** that morphs right out of the island\n- **Landscape player**: turn your phone sideways for a full-screen player with timed lyrics\n- **Jelly swipe to skip** on the pill\n- **Shrinks as you scroll**, next to liquid glass Home and Search circles\n- **iOS 26 artist pages**: big Play button, favorite star and an About sheet\n- **Up Next preview** pops out of the pill before a song ends\n- **Animated album covers** right in the player\n- **Album color glow**: the pill tints to the cover\n- **Hold to peek**: cover, live lyric line and time\n- **Song change splash** and **share cards** for your stories\n- **AND MORE**",
-     "useSpacing": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "Version",
-     "text": "1.8"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "Developer",
-     "text": "nano"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "Compatibility",
-     "text": "iOS 15 \u2013 16, rootless and rootful"
-    },
-    {
-     "class": "DepictionTableTextView",
-     "title": "Tested on",
-     "text": "iPhone 13 Pro Max, iOS 16.1"
-    },
-    {
-     "class": "DepictionSeparatorView",
-     "c26help": true
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Help & Support",
-     "useBoldText": true,
-     "useBottomMargin": true,
-     "c26help": true
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "Report a Bug",
-     "action": "mailto:batmangamingghh@gmail.com?subject=MusicPill%20bug%20report&body=Device%20and%20iOS%20version%3A%0AJailbreak%3A%0AWhat%20happened%3A%0A",
-     "openExternal": true,
-     "c26help": true
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "Support nano on Cash App \ud83d\udcb8",
-     "action": "https://cash.app/$naniishotl",
-     "openExternal": true,
-     "c26help": true
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "More from nano",
-     "useBoldText": true,
-     "useBottomMargin": true
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "iOS 26 Packages \u2014 get all of them at once",
-     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.ios26packages.json"
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "Control26 \u2014 The iOS 26 Control Center",
-     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.control26.json"
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "Messages26 \u2014 The iOS 26 Messages experience",
-     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.messages26.json"
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "Photos26 \u2014 The iOS 26 Photos experience",
-     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.photos26.json"
-    },
-    {
-     "class": "DepictionTableButtonView",
-     "title": "LiquidLock \u2014 Animated Face ID",
-     "action": "depiction-https://nanoonsjs.github.io/nano-repo/depictions/com.nano.liquidlock.json"
-    },
-    {
-     "class": "DepictionLabelView",
-     "text": "Made by nano \u00b7 iPhone 13 Pro Max tested",
-     "alignment": 1,
-     "fontSize": 13,
-     "textColor": "#8e8e93",
-     "margins": "{12, 16}"
+      "tabname": "Changelog",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.9",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Bounce right on time**: when you let go of the drop, the pill bounces the moment the drop sinks back in, not before\n- **Smoother minimize**: the glass now shrinks together with the buttons when the player minimizes or expands, so nothing sticks out of it\n- The pill's icons fade in once its circles have formed\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.8",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Real liquid glass drop**: pull up and the neck and drop melt right out of the pill as real liquid glass that bends the light, while the pill keeps its own glass\n- **Smooth join**: the neck flows into the pill with no line where they meet, and no white outline\n- **Slower close**: the Dynamic Pill closes back into the drop more gently, and the pill bounces the instant the drop lands in it\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.7.1",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Real liquid glass**: the pill, the minimized pill and its circles are now true liquid glass that bends the light at its edges and stays smooth while scrolling\n- **Glass buttons everywhere**: the search field, X, back, Edit and top bar buttons, Up Next and pinned chips use the same glass\n- **Glass liquid drop**: the drop is one smooth piece of glass with a shiny outline; pull it far enough and it breaks off into a glass ball\n- **Lower pill**: the maximized pill sits a little lower\n- Pressing the minimized pill no longer grows a glass neck to the pill\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.6",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Better liquid drop**: a slight pull makes a soft bump that rises into a drop on a pinching neck, and it quivers while you hold it\n- **Pull anywhere**: the drop comes up wherever your finger is along the pill's top edge\n- **Height limit**: pull past it and the Dynamic Pill opens right away; let go after a good pull and it opens too; a small pull goes back in\n- **Matching close**: the Dynamic Pill closes back into the same drop, right where you pulled it from\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.5.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Liquid Dynamic Pill**: it opens as liquid poured up out of the drop, and closes back into a drop that gets sucked into the pill with a bounce\n- **Faster and smoother**: quicker pull, open and close, with smoother drawing while it moves\n- **Sleep Timer Back button**: go back to Insights right from the Sleep Timer\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.5",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Liquid pull**: pull up on the pill and a drop of liquid glass rises out of it, follows your finger and wobbles. Let go and the Dynamic Pill grows right out of the drop\n- **Dynamic Pill closing**: closes on one smooth spring, then bounces into the real pill\n- **New player close**: the player shrinks evenly into the pill and lands exactly on it\n- **Locked pill**: the pill keeps one size and spot (no more resizing after leaving Music or scrolling)\n- **Smooth Lyrics** (optional, landscape): lyrics follow every frame, glide, karaoke fill, depth, breathing ••• in breaks, and a ± timing nudge per song\n- **Song Change Splash**: shows the moment a new song plays, new bubble look when the pill is minimized, hides while paused\n- **Settings demo**: shows the liquid pull and the splash\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.4",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Hold to peek**: hold the pill and it grows a little with the cover, the lyric being sung and the time\n- **Song change splash** (optional): a new song makes the pill grow with the big cover, tap it to open the player\n- **Share card**: share a story-size picture of what you're playing from Insights\n- **Smoother Dynamic Pill**: opens from your finger, closes like the Dynamic Island, pull it down to close\n- **Landscape**: animated icons, a volume that reacts, centered lyrics, a Favorite star and Up Next\n- **Big Cover With Lyrics** (optional): big cover next to the lyrics, tap to pause, swipe to change songs\n- **Hide Home Bar in Landscape** (optional)\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.3",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "useSpacing": true,
+          "markdown": "- **Dynamic Pill**: swipe up on the now playing pill and it grows into Insights, just like the Dynamic Island. Tap outside and it shrinks back into the pill\n- **Insights**: your listening this week, day by day, your streak, top artist, top songs and all time\n- **Sleep Timer** now morphs out of the island (15, 30, 45 min, 1 hour or end of song)\n- **Landscape player**: turn your phone sideways for a full-screen player with the cover, controls, AirPlay and colors from the album. No status bar, home bar along the bottom\n- **Lyrics in landscape**: timed lyrics that light up line by line, tap a line to jump there\n- **Jelly swipe to skip**: the pill stretches and bounces as you swipe\n- **Live waveform** on the cover while music plays (optional)\n- **Tap to open the player**\n- **Smaller pill on the Library tab** (optional)\n- **Still background** in landscape when Increase Contrast is on\n- **Redesigned settings** with a new icon and an animated Dynamic Pill demo\n- **LiquidAss compatibility** switch\n- Bug fixes"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionSubheaderView",
+          "title": "Version 1.2.71",
+          "useBoldText": true,
+          "useBottomMargin": false
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Official release.",
+          "useSpacing": true
+        }
+      ]
     }
-   ]
-  },
-  {
-   "tabname": "Changelog",
-   "class": "DepictionStackView",
-   "views": [
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.8",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Real liquid glass drop**: pull up and the neck and drop melt right out of the pill as real liquid glass that bends the light, while the pill keeps its own glass\n- **Smooth join**: the neck flows into the pill with no line where they meet, and no white outline\n- **Slower close**: the Dynamic Pill closes back into the drop more gently, and the pill bounces the instant the drop lands in it\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.7.1",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Real liquid glass**: the pill, the minimized pill and its circles are now true liquid glass that bends the light at its edges and stays smooth while scrolling\n- **Glass buttons everywhere**: the search field, X, back, Edit and top bar buttons, Up Next and pinned chips use the same glass\n- **Glass liquid drop**: the drop is one smooth piece of glass with a shiny outline; pull it far enough and it breaks off into a glass ball\n- **Lower pill**: the maximized pill sits a little lower\n- Pressing the minimized pill no longer grows a glass neck to the pill\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.6",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Better liquid drop**: a slight pull makes a soft bump that rises into a drop on a pinching neck, and it quivers while you hold it\n- **Pull anywhere**: the drop comes up wherever your finger is along the pill's top edge\n- **Height limit**: pull past it and the Dynamic Pill opens right away; let go after a good pull and it opens too; a small pull goes back in\n- **Matching close**: the Dynamic Pill closes back into the same drop, right where you pulled it from\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.5.5",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Liquid Dynamic Pill**: it opens as liquid poured up out of the drop, and closes back into a drop that gets sucked into the pill with a bounce\n- **Faster and smoother**: quicker pull, open and close, with smoother drawing while it moves\n- **Sleep Timer Back button**: go back to Insights right from the Sleep Timer\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.5",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Liquid pull**: pull up on the pill and a drop of liquid glass rises out of it, follows your finger and wobbles. Let go and the Dynamic Pill grows right out of the drop\n- **Dynamic Pill closing**: closes on one smooth spring, then bounces into the real pill\n- **New player close**: the player shrinks evenly into the pill and lands exactly on it\n- **Locked pill**: the pill keeps one size and spot (no more resizing after leaving Music or scrolling)\n- **Smooth Lyrics** (optional, landscape): lyrics follow every frame, glide, karaoke fill, depth, breathing \u2022\u2022\u2022 in breaks, and a \u00b1 timing nudge per song\n- **Song Change Splash**: shows the moment a new song plays, new bubble look when the pill is minimized, hides while paused\n- **Settings demo**: shows the liquid pull and the splash\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.4",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Hold to peek**: hold the pill and it grows a little with the cover, the lyric being sung and the time\n- **Song change splash** (optional): a new song makes the pill grow with the big cover, tap it to open the player\n- **Share card**: share a story-size picture of what you're playing from Insights\n- **Smoother Dynamic Pill**: opens from your finger, closes like the Dynamic Island, pull it down to close\n- **Landscape**: animated icons, a volume that reacts, centered lyrics, a Favorite star and Up Next\n- **Big Cover With Lyrics** (optional): big cover next to the lyrics, tap to pause, swipe to change songs\n- **Hide Home Bar in Landscape** (optional)\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.3",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "useSpacing": true,
-     "markdown": "- **Dynamic Pill**: swipe up on the now playing pill and it grows into Insights, just like the Dynamic Island. Tap outside and it shrinks back into the pill\n- **Insights**: your listening this week, day by day, your streak, top artist, top songs and all time\n- **Sleep Timer** now morphs out of the island (15, 30, 45 min, 1 hour or end of song)\n- **Landscape player**: turn your phone sideways for a full-screen player with the cover, controls, AirPlay and colors from the album. No status bar, home bar along the bottom\n- **Lyrics in landscape**: timed lyrics that light up line by line, tap a line to jump there\n- **Jelly swipe to skip**: the pill stretches and bounces as you swipe\n- **Live waveform** on the cover while music plays (optional)\n- **Tap to open the player**\n- **Smaller pill on the Library tab** (optional)\n- **Still background** in landscape when Increase Contrast is on\n- **Redesigned settings** with a new icon and an animated Dynamic Pill demo\n- **LiquidAss compatibility** switch\n- Bug fixes"
-    },
-    {
-     "class": "DepictionSeparatorView"
-    },
-    {
-     "class": "DepictionSubheaderView",
-     "title": "Version 1.2.71",
-     "useBoldText": true,
-     "useBottomMargin": false
-    },
-    {
-     "class": "DepictionMarkdownView",
-     "markdown": "Official release.",
-     "useSpacing": true
-    }
-   ]
-  }
- ]
+  ]
 }
